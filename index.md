@@ -118,7 +118,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#21900](https://github.com/pingcap/tidb/issues/21900)         |           | major    | @ekexium</br><sub>@MyonKeminta</sub>  |                                                      |      |
 | [#21618](https://github.com/pingcap/tidb/issues/21618)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
 | [#21509](https://github.com/pingcap/tidb/issues/21509)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
-| [#21335](https://github.com/pingcap/tidb/issues/21335)         |           | major    | @you06                                |                                                      |      |
+| [#21335](https://github.com/pingcap/tidb/issues/21335)         |           | major    | @you06                                | [#22146](https://github.com/pingcap/tidb/pull/22146) |      |
 | [#21087](https://github.com/pingcap/tidb/issues/21087)         |           | major    | <sub>@youjiali1995</sub>              |                                                      |      |
 | [#20854](https://github.com/pingcap/tidb/issues/20854)         |           | major    | <sub><sup>@beihaiguaishou</sup></sub> | [#21895](https://github.com/pingcap/tidb/pull/21895) |      |
 | [#20655](https://github.com/pingcap/tidb/issues/20655)         |           | major    | <sub>@MyonKeminta</sub>               | [#21988](https://github.com/pingcap/tidb/pull/21988) |      |
@@ -145,7 +145,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 |                             ISSUE                              |                    CHALLENGE                     | PRIORITY |        ASSIGNEE         |                          PR                          | HINT |
 |----------------------------------------------------------------|--------------------------------------------------|----------|-------------------------|------------------------------------------------------|------|
 | [#22117](https://github.com/pingcap/tidb/issues/22117)&#x2757; |                                                  | critical |                         |                                                      |      |
-| [#22047](https://github.com/pingcap/tidb/issues/22047)         |                                                  | critical | <sub>@xiongjiwei</sub>  | [#22054](https://github.com/pingcap/tidb/pull/22054) |      |
 | [#22135](https://github.com/pingcap/tidb/issues/22135)&#x2757; |                                                  | major    |                         |                                                      |      |
 | [#17808](https://github.com/pingcap/tidb/issues/17808)         |                                                  | major    | <sub>@Reminiscent</sub> | [#21497](https://github.com/pingcap/tidb/pull/21497) |      |
 | [#11952](https://github.com/pingcap/tidb/issues/11952)         |                                                  | major    | @bb7133                 | [#21564](https://github.com/pingcap/tidb/pull/21564) |      |
@@ -173,6 +172,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-04T04:29:32-00:00
+updated at 2021-01-04T05:27:44-00:00
 
 
