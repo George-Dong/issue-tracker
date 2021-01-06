@@ -87,7 +87,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#17751](https://github.com/pingcap/tidb/issues/17751)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | minor    |                         |                                                      |      |
 | [#17489](https://github.com/pingcap/tidb/issues/17489)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | minor    |                         |                                                      |      |
 | [#17008](https://github.com/pingcap/tidb/issues/17008)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | minor    |                         |                                                      |      |
-| [#15154](https://github.com/pingcap/tidb/issues/15154)         |                                                        | minor    | @wshwsh12               |                                                      |      |
+| [#15154](https://github.com/pingcap/tidb/issues/15154)         |                                                        | minor    | @wshwsh12               | [#22197](https://github.com/pingcap/tidb/pull/22197) |      |
 | [#13440](https://github.com/pingcap/tidb/issues/13440)         |                                                        | minor    | <sub>@SunRunAway</sub>  |                                                      |      |
 | [#11200](https://github.com/pingcap/tidb/issues/11200)&#x2757; | &#x2665; yes!</br>Mentor: @qw4990</br>Score: 300       | minor    |                         |                                                      |      |
 | [#10543](https://github.com/pingcap/tidb/issues/10543)&#x2757; | &#x2665; yes!                                          | minor    |                         |                                                      |      |
@@ -158,6 +158,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-06T04:31:18-00:00
+updated at 2021-01-06T05:29:46-00:00
 
 
