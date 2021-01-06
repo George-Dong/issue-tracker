@@ -103,6 +103,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#21498](https://github.com/pingcap/tidb/issues/21498)         |           | critical |                                       | [#22152](https://github.com/pingcap/tidb/pull/22152) |      |
 | [#21618](https://github.com/pingcap/tidb/issues/21618)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
 | [#21509](https://github.com/pingcap/tidb/issues/21509)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
+| [#21470](https://github.com/pingcap/tidb/issues/21470)         |           | major    | @cfzjywxk                             |                                                      |      |
 | [#21335](https://github.com/pingcap/tidb/issues/21335)         |           | major    | @you06                                | [#22146](https://github.com/pingcap/tidb/pull/22146) |      |
 | [#21087](https://github.com/pingcap/tidb/issues/21087)         |           | major    | <sub>@youjiali1995</sub>              |                                                      |      |
 | [#20854](https://github.com/pingcap/tidb/issues/20854)         |           | major    | <sub><sup>@beihaiguaishou</sup></sub> | [#21895](https://github.com/pingcap/tidb/pull/21895) |      |
@@ -156,6 +157,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-06T06:22:07-00:00
+updated at 2021-01-06T07:28:46-00:00
 
 
