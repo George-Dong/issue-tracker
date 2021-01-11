@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"database/sql"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -66,32 +67,6 @@ func init() {
 	httpClient := oauth2.NewClient(context.Background(), src)
 	client = githubv4.NewClient(httpClient)
 
-	dbUrl = os.Getenv("MYSQL_URL")
-	if dbUrl == "" {
-		log.Fatal("no MYSQL_URL found in env")
-	}
-
-	db, err := sql.Open("mysql", dbUrl+"?multiStatements=true")
-	if err != nil {
-		log.Fatal("error open database", err)
-	}
-	loadData, err := ioutil.ReadFile("db.sql")
-	if err != nil {
-		log.Fatal("error reading data sql", err)
-	}
-	start := time.Now()
-	_, err = db.Exec(string(loadData))
-	for err != nil && time.Since(start) < 5*time.Second {
-		time.Sleep(100 * time.Millisecond)
-		_, err = db.Exec(string(loadData))
-	}
-	if err != nil {
-		log.Fatal("error loading data", err)
-	}
-	log.Println("data loaded")
-
-	trackedIssues = make(map[githubv4.ID]IssueNode)
-	initPostIssueID()
 }
 
 func getIssuesByRepoAndLabel(mu *sync.Mutex, owner, name string, labels []string, latestUpdate time.Time) error {
@@ -531,13 +506,52 @@ func reportToIssue(content string) (url string, err error) {
 	return
 }
 
+func initForTrack() {
+	dbUrl = os.Getenv("MYSQL_URL")
+	if dbUrl == "" {
+		log.Fatal("no MYSQL_URL found in env")
+	}
+
+	db, err := sql.Open("mysql", dbUrl+"?multiStatements=true")
+	if err != nil {
+		log.Fatal("error open database", err)
+	}
+	loadData, err := ioutil.ReadFile("db.sql")
+	if err != nil {
+		log.Fatal("error reading data sql", err)
+	}
+	start := time.Now()
+	_, err = db.Exec(string(loadData))
+	for err != nil && time.Since(start) < 5*time.Second {
+		time.Sleep(100 * time.Millisecond)
+		_, err = db.Exec(string(loadData))
+	}
+	if err != nil {
+		log.Fatal("error loading data", err)
+	}
+	log.Println("data loaded")
+
+	trackedIssues = make(map[githubv4.ID]IssueNode)
+	initPostIssueID()
+}
+
 func main() {
-	getIssues()
-	fmt.Println(len(trackedIssues))
-	updateDatabase()
-	content := generateTrackTable()
-	_ = content
-	if report {
-		reportToIssue(content)
+	getContri := flag.Bool("contri", false, "get contributors")
+	flag.Parse()
+	if *getContri {
+		err := getContributors()
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		initForTrack()
+		getIssues()
+		fmt.Println(len(trackedIssues))
+		updateDatabase()
+		content := generateTrackTable()
+		_ = content
+		if report {
+			reportToIssue(content)
+		}
 	}
 }
