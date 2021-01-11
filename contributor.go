@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"sort"
+	"strings"
 	"time"
 
 	"github.com/shurcooL/githubv4"
@@ -103,6 +104,8 @@ type IssueNode2 struct {
 	} `graphql:"timelineItems(first: 50, itemTypes: CLOSED_EVENT)"`
 }
 
+var pingcapers = []string{"zz-jason", "zhouqiang-cl", "5kbpers", "AndreMouche", "anotherrachel", "AstroProfundis", "BellaXiang", "booooodv", "breeswish", "buggithubs", "CaitinChen", "cfzjywxk", "ChenPeng2013", "Chujie", "CocaLi", "cosven", "csuzhangxc", "cwen0", "cyliu0", "Damon-PingCAP", "dcalvin", "Deardrops", "disksing", "ethercflow", "eurekaka", "francis0407", "g1eny0ung", "GITHUBear", "glorv", "GMHDBJD", "IANTHEREAL", "HunDunDM", "hunterlxt", "husiyu", "iamxy", "innerr", "iosmanthus", "ishiihara", "jackysp", "JaySon-Huang", "kennytm", "kissmydb", "lawyerphx", "leoppro", "lhy1024", "lichunzhu", "lonng", "lysu", "lzmhhh123", "marsishandsome", "meyu44", "Minorli", "NingLin-P", "nolouch", "PiPaSay", "qiuyesuifeng", "qw4990", "ran-huang", "Reminiscent", "sdojjy", "siddontang", "Soline324", "sticnarf", "SunRunAway", "sunzhuohang", "superlzs0476", "sykp241095", "tangenta", "tennix", "tiancaiamao", "together-wang", "toutdesuite", "tshqin", "uglyengineer", "WangXiangUSTC", "wd0517", "Win-Man", "winkyao", "wsabc01", "wshwsh12", "WT-Liu", "xuechunL", "YangKeao", "yikeke", "YiniXu9506", "you06", "youjiali1995", "YuJuncen", "zanmato1984", "zhexuany", "zhongzc", "zyguan", "jebter", "coocood", "imtbkcat", "XuHuaiyu", "fzhedu", "winoros", "crazycs520", "AilinKid", "djshow832", "zimulala", "hanfei1991", "windtalker", "lidezhu", "birdstorm", "solotzg", "MyonKeminta", "nrc", "Connor1996", "brson", "BusyJay", "gengliqi", "overvenus", "hicqu", "Little-Wallace", "yiwu-arbug", "3pointer", "amyangfei", "july2993", "lucklove", "mahjonp", "mapleFU", "shafreeck", "rleungx", "aylei", "DanielZhangQD", "qiffang", "jlerche", "shuijing198799", "weekface", "onlymellb", "LinuxGit", "Yisaer", "cofyc", "baurine", "aytrack", "lilinghai", "ichn-hu", "LittleFall", "leiysky", "andylokandy", "yeya24", "Illyrix", "fewdan", "zhailei9710", "lilin90", "queenypingcap", "WalterWj", "15521174487", "bb7133", "shenli", "dbaoutdo", "huachaohuang", "UncP", "zhangjinpeng1987", "lamxTyler", "liubo0127", "fipped", "wentaoxu", "zhengwanbo", "lhyPingcap", "ciscoxll", "gaohailang", "yanyanqing", "ilovesoup", "dorianzheng", "datahoecn", "UNHNQ", "TomShawn", "xiekeyi98", "chenxiaojing", "ericsyh", "c4pt0r", "pcqz", "Luffbee", "flowbehappy", "ngaut", "hanfei19910905", "sre-bot", "tabokie", "pingcap", "gregwebs", "kolbe", "gingerkidney", "Hoverbear", "Wenting0905", "hashbone", "huangxiuyan", "foreyes", "k-ye", "WenBoYanging", "zyh-hust", "shuke987", "juliezhang1112", "zhenjiaogao", "langyuemeng", "niezefeng", "wowdba", "time-and-fate", "Hexilee", "zjj2wry", "liuzix", "ZenoTan", "ekexium", "nullnotnil", "Rick-lee01", "miaoqingli", "handlerww", "jyz0309", "morgo", "wjhuang2016", "JmPotato", "xuyifangreeneyes", "dyzsr", "xiongjiwei", "bobotu"}
+
 func getContributors() error {
 	owner := "pingcap"
 	name := "tidb"
@@ -127,6 +130,8 @@ func getContributors() error {
 		author    string
 		issue_url string
 		pr_url    string
+		severity  string
+		di        float64
 		labels    []string
 		closed_at time.Time
 	}
@@ -168,11 +173,33 @@ func getContributors() error {
 					for i, l := range n.Labels.Nodes {
 						labels[i] = string(l.Name)
 					}
+					severity := "unkown"
+					di := 0.0
+					for _, l := range labels {
+						if strings.HasPrefix(l, "severity/") {
+							severity = l[9:]
+							break
+						}
+					}
+					switch severity {
+					case "critical":
+						di = 10
+					case "major":
+						di = 3
+					case "moderate":
+						di = 1
+					case "minor":
+						di = 0.1
+					default:
+						di = 0
+					}
 					contrib := Contribution{
 						author:    string(pr.Author.Login),
 						issue_url: string(n.Url),
 						pr_url:    string(pr.Url),
 						labels:    labels,
+						severity:  severity,
+						di:        di,
 						closed_at: event.Node.ClosedEvent.CreatedAt.Time,
 					}
 					if contrib.closed_at.After(end) || contrib.closed_at.Before(begin) {
@@ -195,9 +222,9 @@ func getContributors() error {
 		if debug {
 			break
 		}
-		//		if lastIssue.Node.UpdatedAt.Time.Before(begin) {
-		//			break
-		//		}
+		if lastIssue.Node.UpdatedAt.Time.Before(begin) {
+			break
+		}
 	}
 	fmt.Println("hello contributor")
 	list := make([][]Contribution, 0, len(contributions))
@@ -211,10 +238,17 @@ func getContributors() error {
 	if err != nil {
 		panic(err)
 	}
+	pc := make(map[string]struct{})
+	for _, p := range pingcapers {
+		pc[p] = struct{}{}
+	}
 	for _, contri := range list {
 		fmt.Println(contri[0].author, len(contri))
+		if _, ok := pc[contri[0].author]; ok {
+			continue
+		}
 		for _, c := range contri {
-			_, err := f.WriteString(fmt.Sprintf("%s,%d,%s,%s,%s\n", c.author, len(contri), c.issue_url, c.pr_url, c.closed_at.String()))
+			_, err := f.WriteString(fmt.Sprintf("%s,%d,%s,%f,%s,%s,%s\n", c.author, len(contri), c.severity, c.di, c.issue_url, c.pr_url, c.closed_at.String()))
 			if err != nil {
 				return err
 			}
