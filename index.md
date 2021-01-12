@@ -54,6 +54,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 |                             ISSUE                              |                       CHALLENGE                        | PRIORITY |               ASSIGNEE               |                          PR                          | HINT |
 |----------------------------------------------------------------|--------------------------------------------------------|----------|--------------------------------------|------------------------------------------------------|------|
+| [#22345](https://github.com/pingcap/tidb/issues/22345)         |                                                        | major    | @lysu                                | [#22372](https://github.com/pingcap/tidb/pull/22372) |      |
 | [#22308](https://github.com/pingcap/tidb/issues/22308)         |                                                        | major    | @ichn-hu                             |                                                      |      |
 | [#22200](https://github.com/pingcap/tidb/issues/22200)         |                                                        | major    | <sub>@iosmanthus</sub></br>@XuHuaiyu | [#22271](https://github.com/pingcap/tidb/pull/22271) |      |
 | [#21584](https://github.com/pingcap/tidb/issues/21584)&#x2757; |                                                        | major    |                                      |                                                      |      |
@@ -79,7 +80,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#13157](https://github.com/pingcap/tidb/issues/13157)         | &#x2B50; picked</br>Mentor: @XuHuaiyu</br>Score: 300   | moderate | <sub>@wjhuang2016</sub>              |                                                      |      |
 | [#11932](https://github.com/pingcap/tidb/issues/11932)         |                                                        | moderate | @wshwsh12                            |                                                      |      |
 | [#11866](https://github.com/pingcap/tidb/issues/11866)         | &#x2B50; picked</br>Mentor: @qw4990</br>Score: 300     | moderate | @dragonly                            |                                                      |      |
-| [#22345](https://github.com/pingcap/tidb/issues/22345)&#x2757; |                                                        | minor    |                                      |                                                      |      |
 | [#22227](https://github.com/pingcap/tidb/issues/22227)&#x2757; |                                                        | minor    |                                      |                                                      |      |
 | [#21787](https://github.com/pingcap/tidb/issues/21787)&#x2757; |                                                        | minor    |                                      |                                                      |      |
 | [#21374](https://github.com/pingcap/tidb/issues/21374)         | &#x2665; yes!                                          | minor    |                                      | [#21508](https://github.com/pingcap/tidb/pull/21508) |      |
@@ -102,6 +102,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 |                             ISSUE                              | CHALLENGE | PRIORITY |               ASSIGNEE                |                          PR                          | HINT |
 |----------------------------------------------------------------|-----------|----------|---------------------------------------|------------------------------------------------------|------|
+| [#22345](https://github.com/pingcap/tidb/issues/22345)         |           | major    | @lysu                                 | [#22372](https://github.com/pingcap/tidb/pull/22372) |      |
 | [#21618](https://github.com/pingcap/tidb/issues/21618)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
 | [#21509](https://github.com/pingcap/tidb/issues/21509)         |           | major    |                                       | [#21641](https://github.com/pingcap/tidb/pull/21641) |      |
 | [#21335](https://github.com/pingcap/tidb/issues/21335)         |           | major    | @you06                                | [#22146](https://github.com/pingcap/tidb/pull/22146) |      |
@@ -121,7 +122,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#15007](https://github.com/pingcap/tidb/issues/15007)&#x2757; |           | moderate |                                       |                                                      |      |
 | [#13958](https://github.com/pingcap/tidb/issues/13958)         |           | moderate | @fzhedu                               |                                                      |      |
 | [#10524](https://github.com/pingcap/tidb/issues/10524)&#x2757; |           | moderate |                                       |                                                      |      |
-| [#22345](https://github.com/pingcap/tidb/issues/22345)&#x2757; |           | minor    |                                       |                                                      |      |
 | [#21307](https://github.com/pingcap/tidb/issues/21307)&#x2757; |           | minor    |                                       |                                                      |      |
 | [#20949](https://github.com/pingcap/tidb/issues/20949)&#x2757; |           | minor    |                                       |                                                      |      |
 | [#18048](https://github.com/pingcap/tidb/issues/18048)         |           | minor    | @qw4990                               |                                                      |      |
@@ -161,6 +161,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-12T15:23:33-00:00
+updated at 2021-01-12T16:41:43-00:00
 
 
