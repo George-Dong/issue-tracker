@@ -48,6 +48,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#15514](https://github.com/pingcap/tidb/issues/15514)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | minor    |                                         |                                                      |      |
 | [#12420](https://github.com/pingcap/tidb/issues/12420)         |                                                        | minor    | @tangenta                               | [#22153](https://github.com/pingcap/tidb/pull/22153) |      |
 | [#11977](https://github.com/pingcap/tidb/issues/11977)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | minor    |                                         |                                                      |      |
+| [#22384](https://github.com/pingcap/tidb/issues/22384)         |                                                        |          | @eurekaka                               | [#22392](https://github.com/pingcap/tidb/pull/22392) |      |
 
 
 <h2 name="sig/execution">sig/execution</h2>
@@ -161,6 +162,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-14T06:39:13-00:00
+updated at 2021-01-14T07:44:52-00:00
 
 
