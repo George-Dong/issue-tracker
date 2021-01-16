@@ -30,7 +30,7 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#18216](https://github.com/pingcap/tidb/issues/18216)         |                                                        | moderate | @fzhedu                                 |                                                      |      |
 | [#18042](https://github.com/pingcap/tidb/issues/18042)         | &#x2665; yes!</br>Mentor: @wshwsh12</br>Score: 300     | moderate |                                         | [#20905](https://github.com/pingcap/tidb/pull/20905) |      |
 | [#17852](https://github.com/pingcap/tidb/issues/17852)         |                                                        | moderate | @XuHuaiyu                               |                                                      |      |
-| [#17731](https://github.com/pingcap/tidb/issues/17731)&#x2757; | &#x2665; yes!</br>Mentor: @lzmhhh123</br>Score: 300    | moderate |                                         |                                                      |      |
+| [#17731](https://github.com/pingcap/tidb/issues/17731)         | &#x2B50; picked</br>Mentor: @lzmhhh123</br>Score: 300  | moderate |                                         |                                                      |      |
 | [#16909](https://github.com/pingcap/tidb/issues/16909)         |                                                        | moderate | @lzmhhh123                              | [#17046](https://github.com/pingcap/tidb/pull/17046) |      |
 | [#16788](https://github.com/pingcap/tidb/issues/16788)         | &#x2B50; picked</br>Mentor: @SunRunAway</br>Score: 300 | moderate | <sub><sup>@xuyifangreeneyes</sup></sub> | [#20044](https://github.com/pingcap/tidb/pull/20044) |      |
 | [#16764](https://github.com/pingcap/tidb/issues/16764)         |                                                        | moderate | @lzmhhh123                              |                                                      |      |
@@ -176,6 +176,6 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 
 ---
 
-updated at 2021-01-16T06:36:49-00:00
+updated at 2021-01-16T07:43:21-00:00
 
 
