@@ -183,11 +183,12 @@ If there is a &#x2757; before the issue link, it means there is no one assigned,
 | [#17460](https://github.com/pingcap/tidb/issues/17460)         |                                                  | minor    | @zimulala               |                                                      |      |
 | [#14241](https://github.com/pingcap/tidb/issues/14241)&#x2757; |                                                  | minor    |                         |                                                      |      |
 | [#11410](https://github.com/pingcap/tidb/issues/11410)&#x2757; |                                                  | minor    |                         |                                                      |      |
+| [#22704](https://github.com/pingcap/tidb/issues/22704)&#x2757; |                                                  |          |                         |                                                      |      |
 
 
 
 ---
 
-updated at 2021-02-03T10:14:27-00:00
+updated at 2021-02-03T12:17:07-00:00
 
 
