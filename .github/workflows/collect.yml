@@ -1,0 +1,55 @@
+name: Go
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+    - 'db.sql'
+    - 'index.md'
+    - '*.json'
+    - '*.zip'
+
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)    
+        required: false
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '0 */1 * * *'
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+    - name: Prepare
+      run: |
+        go build
+
+    - name: Run tracker
+      run: |
+        export GITHUB_TOKEN=${{ secrets.ACCESS_TOKEN }}
+        ./issue-tracker --update --extend 200
+
+    - name: Commit files
+      run: |
+        git config --local user.email "noname@gmail.com"
+        git config --local user.name "noname"
+        git commit -m "Add changes" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: ${{ github.ref }}
+
