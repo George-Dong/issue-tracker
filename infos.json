@@ -10058,21 +10058,21 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 8258,
-		"Title": "sql mode `only_full_group_by` does not deal with expressions correctly",
-		"Url": "https://github.com/pingcap/tidb/issues/8258",
-		"ClosedAt": "2020-10-28T06:34:49Z",
+		"Number": 10215,
+		"Title": "potential bug for count(distinct JSON)",
+		"Url": "https://github.com/pingcap/tidb/issues/10215",
+		"ClosedAt": "2020-12-10T08:11:33Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 8824,
-		"Title": "get error while deduplicate the result of a left join",
-		"Url": "https://github.com/pingcap/tidb/issues/8824",
-		"ClosedAt": "2020-12-01T11:41:08Z",
-		"Severity": "major",
+		"Number": 8258,
+		"Title": "sql mode `only_full_group_by` does not deal with expressions correctly",
+		"Url": "https://github.com/pingcap/tidb/issues/8258",
+		"ClosedAt": "2020-10-28T06:34:49Z",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -10088,11 +10088,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10215,
-		"Title": "potential bug for count(distinct JSON)",
-		"Url": "https://github.com/pingcap/tidb/issues/10215",
-		"ClosedAt": "2020-12-10T08:11:33Z",
-		"Severity": "moderate",
+		"Number": 8824,
+		"Title": "get error while deduplicate the result of a left join",
+		"Url": "https://github.com/pingcap/tidb/issues/8824",
+		"ClosedAt": "2020-12-01T11:41:08Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -10218,11 +10218,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 14280,
-		"Title": "an unstable SQL execution in copr-test",
-		"Url": "https://github.com/pingcap/tidb/issues/14280",
-		"ClosedAt": "2020-11-13T07:25:15Z",
-		"Severity": "critical",
+		"Number": 13850,
+		"Title": "TestAddColumn2 failed",
+		"Url": "https://github.com/pingcap/tidb/issues/13850",
+		"ClosedAt": "2021-01-06T05:25:17Z",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -10258,11 +10258,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13850,
-		"Title": "TestAddColumn2 failed",
-		"Url": "https://github.com/pingcap/tidb/issues/13850",
-		"ClosedAt": "2021-01-06T05:25:17Z",
-		"Severity": "moderate",
+		"Number": 14280,
+		"Title": "an unstable SQL execution in copr-test",
+		"Url": "https://github.com/pingcap/tidb/issues/14280",
+		"ClosedAt": "2020-11-13T07:25:15Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -10488,6 +10488,16 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 19243,
+		"Title": "Unexpected CAST error: 'Incorrect datetime value'",
+		"Url": "https://github.com/pingcap/tidb/issues/19243",
+		"ClosedAt": "2020-11-26T06:28:29Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 18588,
 		"Title": "mem field in information_schema.processlist display abnormal",
 		"Url": "https://github.com/pingcap/tidb/issues/18588",
@@ -10503,16 +10513,6 @@
 		"Url": "https://github.com/pingcap/tidb/issues/19387",
 		"ClosedAt": "2020-11-02T03:16:01Z",
 		"Severity": "critical",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 19243,
-		"Title": "Unexpected CAST error: 'Incorrect datetime value'",
-		"Url": "https://github.com/pingcap/tidb/issues/19243",
-		"ClosedAt": "2020-11-26T06:28:29Z",
-		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -11099,6 +11099,16 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 11092,
+		"Title": "Add doc for the new fast recover feature in TiDB 3.0 ",
+		"Url": "https://github.com/pingcap/tidb/issues/11092",
+		"ClosedAt": "2020-08-25T23:45:08Z",
+		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 14349,
 		"Title": "function to_base64 is incompatible with MySQL",
 		"Url": "https://github.com/pingcap/tidb/issues/14349",
@@ -11129,16 +11139,6 @@
 				"Refs": null
 			}
 		]
-	},
-	{
-		"Number": 11092,
-		"Title": "Add doc for the new fast recover feature in TiDB 3.0 ",
-		"Url": "https://github.com/pingcap/tidb/issues/11092",
-		"ClosedAt": "2020-08-25T23:45:08Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
 	},
 	{
 		"Number": 27446,
@@ -19276,9 +19276,19 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25632,
-		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25632",
+		"Number": 25630,
+		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
+		"Url": "https://github.com/pingcap/tidb/issues/25630",
+		"ClosedAt": "2021-06-22T01:05:50Z",
+		"Severity": "",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 25631,
+		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
+		"Url": "https://github.com/pingcap/tidb/issues/25631",
 		"ClosedAt": "2021-06-22T01:05:50Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -19296,19 +19306,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25631,
-		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
-		"Url": "https://github.com/pingcap/tidb/issues/25631",
-		"ClosedAt": "2021-06-22T01:05:50Z",
-		"Severity": "",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 25630,
-		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
-		"Url": "https://github.com/pingcap/tidb/issues/25630",
+		"Number": 25632,
+		"Title": "unstable test `testSuite.TestIssue25506`",
+		"Url": "https://github.com/pingcap/tidb/issues/25632",
 		"ClosedAt": "2021-06-22T01:05:50Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -19356,9 +19356,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25624,
+		"Number": 25625,
 		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25624",
+		"Url": "https://github.com/pingcap/tidb/issues/25625",
 		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -19366,9 +19366,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25625,
+		"Number": 25624,
 		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25625",
+		"Url": "https://github.com/pingcap/tidb/issues/25624",
 		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -20601,9 +20601,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25312,
-		"Title": "sem does not support dynamic privilege RESTRICTED_CONNECTION_ADMIN",
-		"Url": "https://github.com/pingcap/tidb/issues/25312",
+		"Number": 25314,
+		"Title": "sem should restrict local file system access in backups/restore",
+		"Url": "https://github.com/pingcap/tidb/issues/25314",
 		"ClosedAt": "2021-06-15T04:28:37Z",
 		"Severity": "minor",
 		"AffectedVersions": null,
@@ -20665,9 +20665,9 @@
 		]
 	},
 	{
-		"Number": 25314,
-		"Title": "sem should restrict local file system access in backups/restore",
-		"Url": "https://github.com/pingcap/tidb/issues/25314",
+		"Number": 25312,
+		"Title": "sem does not support dynamic privilege RESTRICTED_CONNECTION_ADMIN",
+		"Url": "https://github.com/pingcap/tidb/issues/25312",
 		"ClosedAt": "2021-06-15T04:28:37Z",
 		"Severity": "minor",
 		"AffectedVersions": null,
@@ -39531,9 +39531,9 @@
 		]
 	},
 	{
-		"Number": 20403,
-		"Title": "wrong result in \"not in\" statement",
-		"Url": "https://github.com/pingcap/tidb/issues/20403",
+		"Number": 13389,
+		"Title": "planner, executor: in subquery dose not distinguish NULL",
+		"Url": "https://github.com/pingcap/tidb/issues/13389",
 		"ClosedAt": "2020-11-12T09:16:33Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -39571,9 +39571,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13389,
-		"Title": "planner, executor: in subquery dose not distinguish NULL",
-		"Url": "https://github.com/pingcap/tidb/issues/13389",
+		"Number": 20403,
+		"Title": "wrong result in \"not in\" statement",
+		"Url": "https://github.com/pingcap/tidb/issues/20403",
 		"ClosedAt": "2020-11-12T09:16:33Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -46508,6 +46508,26 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 19112,
+		"Title": "Got incorrect result when using hash join",
+		"Url": "https://github.com/pingcap/tidb/issues/19112",
+		"ClosedAt": "2020-08-13T11:29:18Z",
+		"Severity": "critical",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 19131,
+			"Title": "types: fix wrong hash key for decimal",
+			"Url": "https://github.com/pingcap/tidb/pull/19131",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2020-08-13T11:29:18Z",
+			"Commit": "0448a548751931dac86ddcc557e83187eeb3a395",
+			"Refs": null
+		},
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 17216,
 		"Title": "select count(distinct decimal(40, 20)) get wrong result",
 		"Url": "https://github.com/pingcap/tidb/issues/17216",
@@ -46533,26 +46553,6 @@
 		"Url": "https://github.com/pingcap/tidb/issues/11852",
 		"ClosedAt": "2020-08-13T11:29:18Z",
 		"Severity": "",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "tidb",
-			"Number": 19131,
-			"Title": "types: fix wrong hash key for decimal",
-			"Url": "https://github.com/pingcap/tidb/pull/19131",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2020-08-13T11:29:18Z",
-			"Commit": "0448a548751931dac86ddcc557e83187eeb3a395",
-			"Refs": null
-		},
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 19112,
-		"Title": "Got incorrect result when using hash join",
-		"Url": "https://github.com/pingcap/tidb/issues/19112",
-		"ClosedAt": "2020-08-13T11:29:18Z",
-		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
