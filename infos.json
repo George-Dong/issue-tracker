@@ -1,5 +1,55 @@
 [
 	{
+		"Number": 31113,
+		"Title": "identifier should convert to ? if it is invalid character",
+		"Url": "https://github.com/pingcap/tidb/issues/31113",
+		"ClosedAt": "2021-12-29T08:07:50Z",
+		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 31108,
+			"Title": "parser: convert identifier to utf8mb4 charset",
+			"Url": "https://github.com/pingcap/tidb/pull/31108",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2021-12-29T08:07:50Z",
+			"Commit": "4dec85cce37c943d78248a8738e41cfb85b6665c",
+			"Refs": null
+		},
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 30565,
+		"Title": "syntax error if character_set_client is gbk",
+		"Url": "https://github.com/pingcap/tidb/issues/30565",
+		"ClosedAt": "2021-12-29T07:33:46Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 31077,
+		"Title": "insert data into cache table will lead tidb panic",
+		"Url": "https://github.com/pingcap/tidb/issues/31077",
+		"ClosedAt": "2021-12-29T07:31:50Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 31079,
+			"Title": "executor: fix stmt summary nil pointer panic on the cached table",
+			"Url": "https://github.com/pingcap/tidb/pull/31079",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2021-12-29T07:31:50Z",
+			"Commit": "88232307dfa6188317144edb9b1caf7f7793405e",
+			"Refs": null
+		},
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 29749,
 		"Title": "one tidb oom after run insert workload 40min",
 		"Url": "https://github.com/pingcap/tidb/issues/29749",
@@ -2835,20 +2885,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 27447,
-		"Title": "Timeout test `builtin_time_vec_generated_test.go:6727: testVectorizeSuite1.TestVectorizedBuiltinTimeEvalOneVecGenerated`",
-		"Url": "https://github.com/pingcap/tidb/issues/27447",
-		"ClosedAt": "2021-12-14T08:03:35Z",
+		"Number": 25189,
+		"Title": "data race in `github.com/pingcap/tidb/store/mockstore/unistore.(*RPCClient).SendRequest()`",
+		"Url": "https://github.com/pingcap/tidb/issues/25189",
+		"ClosedAt": "2021-12-14T08:04:00Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25189,
-		"Title": "data race in `github.com/pingcap/tidb/store/mockstore/unistore.(*RPCClient).SendRequest()`",
-		"Url": "https://github.com/pingcap/tidb/issues/25189",
-		"ClosedAt": "2021-12-14T08:04:00Z",
+		"Number": 27447,
+		"Title": "Timeout test `builtin_time_vec_generated_test.go:6727: testVectorizeSuite1.TestVectorizedBuiltinTimeEvalOneVecGenerated`",
+		"Url": "https://github.com/pingcap/tidb/issues/27447",
+		"ClosedAt": "2021-12-14T08:03:35Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -13667,30 +13717,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11452,
-		"Title": "executor: unit test failed.",
-		"Url": "https://github.com/pingcap/tidb/issues/11452",
-		"ClosedAt": "2021-01-06T05:16:11Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 12450,
 		"Title": " For float(M,D), double(M,D) or decimal(M,D), M must be \u003e= D",
 		"Url": "https://github.com/pingcap/tidb/issues/12450",
 		"ClosedAt": "2020-12-08T13:11:38Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 12575,
-		"Title": "data race in expression package",
-		"Url": "https://github.com/pingcap/tidb/issues/12575",
-		"ClosedAt": "2020-12-09T08:28:53Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -13707,20 +13737,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11276,
-		"Title": "run executor/join_test.go failed",
-		"Url": "https://github.com/pingcap/tidb/issues/11276",
-		"ClosedAt": "2021-01-06T05:15:05Z",
-		"Severity": "minor",
+		"Number": 12575,
+		"Title": "data race in expression package",
+		"Url": "https://github.com/pingcap/tidb/issues/12575",
+		"ClosedAt": "2020-12-09T08:28:53Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10562,
-		"Title": "TiKV_coprocessor_request_error when i upgrade to v3.0.0-rc.1",
-		"Url": "https://github.com/pingcap/tidb/issues/10562",
-		"ClosedAt": "2021-01-06T06:00:56Z",
+		"Number": 11452,
+		"Title": "executor: unit test failed.",
+		"Url": "https://github.com/pingcap/tidb/issues/11452",
+		"ClosedAt": "2021-01-06T05:16:11Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -13737,11 +13767,21 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10215,
-		"Title": "potential bug for count(distinct JSON)",
-		"Url": "https://github.com/pingcap/tidb/issues/10215",
-		"ClosedAt": "2020-12-10T08:11:33Z",
+		"Number": 10562,
+		"Title": "TiKV_coprocessor_request_error when i upgrade to v3.0.0-rc.1",
+		"Url": "https://github.com/pingcap/tidb/issues/10562",
+		"ClosedAt": "2021-01-06T06:00:56Z",
 		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 11276,
+		"Title": "run executor/join_test.go failed",
+		"Url": "https://github.com/pingcap/tidb/issues/11276",
+		"ClosedAt": "2021-01-06T05:15:05Z",
+		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -13757,21 +13797,31 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 8824,
-		"Title": "get error while deduplicate the result of a left join",
-		"Url": "https://github.com/pingcap/tidb/issues/8824",
-		"ClosedAt": "2020-12-01T11:41:08Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 8258,
 		"Title": "sql mode `only_full_group_by` does not deal with expressions correctly",
 		"Url": "https://github.com/pingcap/tidb/issues/8258",
 		"ClosedAt": "2020-10-28T06:34:49Z",
 		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 10215,
+		"Title": "potential bug for count(distinct JSON)",
+		"Url": "https://github.com/pingcap/tidb/issues/10215",
+		"ClosedAt": "2020-12-10T08:11:33Z",
+		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 8824,
+		"Title": "get error while deduplicate the result of a left join",
+		"Url": "https://github.com/pingcap/tidb/issues/8824",
+		"ClosedAt": "2020-12-01T11:41:08Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -13837,16 +13887,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 16128,
-		"Title": "TiDB mysql protocol  column 'originalColumnName' filled with column alias name",
-		"Url": "https://github.com/pingcap/tidb/issues/16128",
-		"ClosedAt": "2020-11-11T01:28:49Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 16447,
 		"Title": "update query does not update expected rows",
 		"Url": "https://github.com/pingcap/tidb/issues/16447",
@@ -13867,21 +13907,21 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 15337,
-		"Title": "The error is not as expected about space function.",
-		"Url": "https://github.com/pingcap/tidb/issues/15337",
-		"ClosedAt": "2020-11-02T03:01:44Z",
-		"Severity": "critical",
+		"Number": 16128,
+		"Title": "TiDB mysql protocol  column 'originalColumnName' filled with column alias name",
+		"Url": "https://github.com/pingcap/tidb/issues/16128",
+		"ClosedAt": "2020-11-11T01:28:49Z",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 15474,
-		"Title": "unit test TestSetDDLErrorCountLimit fails",
-		"Url": "https://github.com/pingcap/tidb/issues/15474",
-		"ClosedAt": "2021-01-06T05:30:59Z",
-		"Severity": "minor",
+		"Number": 15337,
+		"Title": "The error is not as expected about space function.",
+		"Url": "https://github.com/pingcap/tidb/issues/15337",
+		"ClosedAt": "2020-11-02T03:01:44Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -13897,21 +13937,21 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 14804,
-		"Title": "unit test TestVectorizedBuiltinTimeFunc fails",
-		"Url": "https://github.com/pingcap/tidb/issues/14804",
-		"ClosedAt": "2021-01-06T05:25:54Z",
+		"Number": 15474,
+		"Title": "unit test TestSetDDLErrorCountLimit fails",
+		"Url": "https://github.com/pingcap/tidb/issues/15474",
+		"ClosedAt": "2021-01-06T05:30:59Z",
 		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 14280,
-		"Title": "an unstable SQL execution in copr-test",
-		"Url": "https://github.com/pingcap/tidb/issues/14280",
-		"ClosedAt": "2020-11-13T07:25:15Z",
-		"Severity": "critical",
+		"Number": 14804,
+		"Title": "unit test TestVectorizedBuiltinTimeFunc fails",
+		"Url": "https://github.com/pingcap/tidb/issues/14804",
+		"ClosedAt": "2021-01-06T05:25:54Z",
+		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -13947,11 +13987,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13849,
-		"Title": "TestNoHistoryWhenDisableRetry failed",
-		"Url": "https://github.com/pingcap/tidb/issues/13849",
-		"ClosedAt": "2020-12-01T06:50:35Z",
-		"Severity": "moderate",
+		"Number": 14280,
+		"Title": "an unstable SQL execution in copr-test",
+		"Url": "https://github.com/pingcap/tidb/issues/14280",
+		"ClosedAt": "2020-11-13T07:25:15Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -13967,20 +14007,30 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13728,
-		"Title": "unit test failed in `TestAddPrimaryKey3`",
-		"Url": "https://github.com/pingcap/tidb/issues/13728",
-		"ClosedAt": "2021-01-06T05:24:12Z",
+		"Number": 13679,
+		"Title": "test fails at TestAddPrimaryKey4",
+		"Url": "https://github.com/pingcap/tidb/issues/13679",
+		"ClosedAt": "2021-01-06T04:49:01Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13679,
-		"Title": "test fails at TestAddPrimaryKey4",
-		"Url": "https://github.com/pingcap/tidb/issues/13679",
-		"ClosedAt": "2021-01-06T04:49:01Z",
+		"Number": 13849,
+		"Title": "TestNoHistoryWhenDisableRetry failed",
+		"Url": "https://github.com/pingcap/tidb/issues/13849",
+		"ClosedAt": "2020-12-01T06:50:35Z",
+		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 13728,
+		"Title": "unit test failed in `TestAddPrimaryKey3`",
+		"Url": "https://github.com/pingcap/tidb/issues/13728",
+		"ClosedAt": "2021-01-06T05:24:12Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -14007,16 +14057,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13480,
-		"Title": "TestLoadData fail in tidb_test",
-		"Url": "https://github.com/pingcap/tidb/issues/13480",
-		"ClosedAt": "2021-01-06T05:17:29Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 13410,
 		"Title": "Integration push down test randgen/2_logical_2.sql fails",
 		"Url": "https://github.com/pingcap/tidb/issues/13410",
@@ -14027,11 +14067,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13225,
-		"Title": "invalid memory address or nil pointer dereference",
-		"Url": "https://github.com/pingcap/tidb/issues/13225",
-		"ClosedAt": "2020-11-19T03:06:22Z",
-		"Severity": "critical",
+		"Number": 13480,
+		"Title": "TestLoadData fail in tidb_test",
+		"Url": "https://github.com/pingcap/tidb/issues/13480",
+		"ClosedAt": "2021-01-06T05:17:29Z",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -14047,20 +14087,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13280,
-		"Title": "Different decimal results returned by HashAgg when enable-chunk-rpc is true/false",
-		"Url": "https://github.com/pingcap/tidb/issues/13280",
-		"ClosedAt": "2020-12-08T03:52:27Z",
-		"Severity": "major",
+		"Number": 13225,
+		"Title": "invalid memory address or nil pointer dereference",
+		"Url": "https://github.com/pingcap/tidb/issues/13225",
+		"ClosedAt": "2020-11-19T03:06:22Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 24072,
-		"Title": "[encountered error\"] [error=\"connection was bad] occurred during running tiflash bank workload",
-		"Url": "https://github.com/pingcap/tidb/issues/24072",
-		"ClosedAt": "2021-08-03T12:29:33Z",
+		"Number": 13280,
+		"Title": "Different decimal results returned by HashAgg when enable-chunk-rpc is true/false",
+		"Url": "https://github.com/pingcap/tidb/issues/13280",
+		"ClosedAt": "2020-12-08T03:52:27Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -14072,6 +14112,16 @@
 		"Url": "https://github.com/pingcap/tidb/issues/24962",
 		"ClosedAt": "2021-06-15T01:46:32Z",
 		"Severity": "critical",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 24072,
+		"Title": "[encountered error\"] [error=\"connection was bad] occurred during running tiflash bank workload",
+		"Url": "https://github.com/pingcap/tidb/issues/24072",
+		"ClosedAt": "2021-08-03T12:29:33Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -14117,6 +14167,16 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 20985,
+		"Title": "lock tables drainerxxx.checkpoint statement does not take effect",
+		"Url": "https://github.com/pingcap/tidb/issues/20985",
+		"ClosedAt": "2020-11-23T11:20:48Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 21035,
 		"Title": "QPS drop for a while when benching TPCC due to different plans",
 		"Url": "https://github.com/pingcap/tidb/issues/21035",
@@ -14127,11 +14187,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 20985,
-		"Title": "lock tables drainerxxx.checkpoint statement does not take effect",
-		"Url": "https://github.com/pingcap/tidb/issues/20985",
-		"ClosedAt": "2020-11-23T11:20:48Z",
-		"Severity": "major",
+		"Number": 19982,
+		"Title": "Different file content from executing 'select into outfile' on multiple tidb nodes cluster",
+		"Url": "https://github.com/pingcap/tidb/issues/19982",
+		"ClosedAt": "2020-11-09T11:37:22Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -14157,21 +14217,21 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 19982,
-		"Title": "Different file content from executing 'select into outfile' on multiple tidb nodes cluster",
-		"Url": "https://github.com/pingcap/tidb/issues/19982",
-		"ClosedAt": "2020-11-09T11:37:22Z",
+		"Number": 19387,
+		"Title": "`select sum(case when 1 then a end) from t group by a` causes schema change",
+		"Url": "https://github.com/pingcap/tidb/issues/19387",
+		"ClosedAt": "2020-11-02T03:16:01Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 19387,
-		"Title": "`select sum(case when 1 then a end) from t group by a` causes schema change",
-		"Url": "https://github.com/pingcap/tidb/issues/19387",
-		"ClosedAt": "2020-11-02T03:16:01Z",
-		"Severity": "critical",
+		"Number": 18588,
+		"Title": "mem field in information_schema.processlist display abnormal",
+		"Url": "https://github.com/pingcap/tidb/issues/18588",
+		"ClosedAt": "2020-11-23T05:55:15Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -14197,10 +14257,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 18588,
-		"Title": "mem field in information_schema.processlist display abnormal",
-		"Url": "https://github.com/pingcap/tidb/issues/18588",
-		"ClosedAt": "2020-11-23T05:55:15Z",
+		"Number": 17815,
+		"Title": "P1-[4.0 bug hunting]-[SQL Plan Management]-Incorrect result when using the empty string as a predicate in a RIGHT JOIN",
+		"Url": "https://github.com/pingcap/tidb/issues/17815",
+		"ClosedAt": "2020-10-21T08:42:35Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -14227,26 +14287,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17815,
-		"Title": "P1-[4.0 bug hunting]-[SQL Plan Management]-Incorrect result when using the empty string as a predicate in a RIGHT JOIN",
-		"Url": "https://github.com/pingcap/tidb/issues/17815",
-		"ClosedAt": "2020-10-21T08:42:35Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 17781,
-		"Title": "P0-[4.0 bug hunting]-[TiKV/TiDB]-TiDB could stuck when execute a query when TiKV in progress stale command ",
-		"Url": "https://github.com/pingcap/tidb/issues/17781",
-		"ClosedAt": "2020-11-10T05:22:58Z",
-		"Severity": "critical",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 17631,
 		"Title": "check_dev_2 failed in `testSessionSuite2.SetUpSuite`",
 		"Url": "https://github.com/pingcap/tidb/issues/17631",
@@ -14262,6 +14302,16 @@
 		"Url": "https://github.com/pingcap/tidb/issues/17814",
 		"ClosedAt": "2020-10-21T08:42:12Z",
 		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 17781,
+		"Title": "P0-[4.0 bug hunting]-[TiKV/TiDB]-TiDB could stuck when execute a query when TiKV in progress stale command ",
+		"Url": "https://github.com/pingcap/tidb/issues/17781",
+		"ClosedAt": "2020-11-10T05:22:58Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -14389,213 +14439,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17800,
-		"Title": "P3-[4.0-bug-hunting]-[LOAD DATA]-Confusing reference to variable",
-		"Url": "https://github.com/pingcap/tidb/issues/17800",
-		"ClosedAt": "2020-07-30T03:11:49Z",
-		"Severity": "",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "docs",
-			"Number": 3474,
-			"Title": "sql-statements: improve load data",
-			"Url": "https://github.com/pingcap/docs/pull/3474",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2020-07-30T03:11:49Z",
-			"Commit": "d28c01c7af74521df5e7af88244bc69b16382a3c",
-			"Refs": null
-		},
-		"CloserCherryPicked": [
-			{
-				"Repository": "docs",
-				"Number": 3477,
-				"Title": "sql-statements: improve load data (#3474)",
-				"Url": "https://github.com/pingcap/docs/pull/3477",
-				"State": "MERGED",
-				"MergeTarget": "release-2.1",
-				"MergedAt": "2020-07-30T03:17:37Z",
-				"Commit": "1e2231d26ffa65ce77b580d0822ecc1c3e1be43c",
-				"Refs": null
-			},
-			{
-				"Repository": "docs",
-				"Number": 3478,
-				"Title": "sql-statements: improve load data (#3474)",
-				"Url": "https://github.com/pingcap/docs/pull/3478",
-				"State": "MERGED",
-				"MergeTarget": "release-3.0",
-				"MergedAt": "2020-07-30T03:19:48Z",
-				"Commit": "2206c4d9adc4ffa6fa6f112b78552bc7c4d35122",
-				"Refs": null
-			},
-			{
-				"Repository": "docs",
-				"Number": 3479,
-				"Title": "sql-statements: improve load data (#3474)",
-				"Url": "https://github.com/pingcap/docs/pull/3479",
-				"State": "MERGED",
-				"MergeTarget": "release-3.1",
-				"MergedAt": "2020-07-30T03:24:03Z",
-				"Commit": "d42ccc065a21b70860de6ab90f84ded443318dd5",
-				"Refs": null
-			},
-			{
-				"Repository": "docs",
-				"Number": 3480,
-				"Title": "sql-statements: improve load data (#3474)",
-				"Url": "https://github.com/pingcap/docs/pull/3480",
-				"State": "MERGED",
-				"MergeTarget": "release-4.0",
-				"MergedAt": "2020-07-30T03:25:33Z",
-				"Commit": "84c77112644b8feaf43d7af827b9612c9f103d8a",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4119,
-				"Title": "sql-statements: improve load data",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4119",
-				"State": "MERGED",
-				"MergeTarget": "master",
-				"MergedAt": "2020-07-30T08:25:50Z",
-				"Commit": "2fcac40ee3160590d29bef596a6d1bbdddda3390",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4124,
-				"Title": "sql-statements: improve load data (#4119)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4124",
-				"State": "MERGED",
-				"MergeTarget": "release-2.1",
-				"MergedAt": "2020-07-30T08:41:13Z",
-				"Commit": "84b734d05ee2d19d5add92d084de45b5a7d09c6c",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4125,
-				"Title": "sql-statements: improve load data (#4119)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4125",
-				"State": "MERGED",
-				"MergeTarget": "release-3.0",
-				"MergedAt": "2020-07-30T08:42:33Z",
-				"Commit": "1fc93eb15266a18e98ee8e3f95fe59ec94ea9598",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4126,
-				"Title": "sql-statements: improve load data (#4119)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4126",
-				"State": "MERGED",
-				"MergeTarget": "release-3.1",
-				"MergedAt": "2020-07-30T08:43:02Z",
-				"Commit": "cd4285efbda693f2ef87faaaf9c399dea6a82d05",
-				"Refs": null
-			}
-		]
-	},
-	{
-		"Number": 17799,
-		"Title": "P3-[4.0-bug-hunting]-[Pessimistic Transaction]-Documentation does not make default clear",
-		"Url": "https://github.com/pingcap/tidb/issues/17799",
-		"ClosedAt": "2020-08-10T06:34:35Z",
-		"Severity": "",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "docs",
-			"Number": 3475,
-			"Title": "pessimistic trx: cleanup wording",
-			"Url": "https://github.com/pingcap/docs/pull/3475",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2020-08-10T06:34:35Z",
-			"Commit": "1f504cdb22ac48c41a81b3871555301df938cd5d",
-			"Refs": null
-		},
-		"CloserCherryPicked": [
-			{
-				"Repository": "docs",
-				"Number": 3590,
-				"Title": "pessimistic trx: cleanup wording (#3475)",
-				"Url": "https://github.com/pingcap/docs/pull/3590",
-				"State": "CLOSED",
-				"MergeTarget": "release-3.0",
-				"MergedAt": "0001-01-01T00:00:00Z",
-				"Commit": "",
-				"Refs": null
-			},
-			{
-				"Repository": "docs",
-				"Number": 3591,
-				"Title": "pessimistic trx: cleanup wording (#3475)",
-				"Url": "https://github.com/pingcap/docs/pull/3591",
-				"State": "CLOSED",
-				"MergeTarget": "release-3.1",
-				"MergedAt": "0001-01-01T00:00:00Z",
-				"Commit": "",
-				"Refs": null
-			},
-			{
-				"Repository": "docs",
-				"Number": 3592,
-				"Title": "pessimistic trx: cleanup wording (#3475)",
-				"Url": "https://github.com/pingcap/docs/pull/3592",
-				"State": "MERGED",
-				"MergeTarget": "release-4.0",
-				"MergedAt": "2020-08-10T16:28:36Z",
-				"Commit": "86226cf97da251e9dc76fe0c9602dd8e1123ad47",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4446,
-				"Title": "pessimistic trx: cleanup wording",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4446",
-				"State": "MERGED",
-				"MergeTarget": "master",
-				"MergedAt": "2020-09-14T03:06:08Z",
-				"Commit": "6ee9cd5eb9c826e28e207a86c14a41fdc50c9c6e",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4493,
-				"Title": "pessimistic trx: cleanup wording (#4446)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4493",
-				"State": "CLOSED",
-				"MergeTarget": "release-3.0",
-				"MergedAt": "0001-01-01T00:00:00Z",
-				"Commit": "",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4494,
-				"Title": "pessimistic trx: cleanup wording (#4446)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4494",
-				"State": "CLOSED",
-				"MergeTarget": "release-3.1",
-				"MergedAt": "0001-01-01T00:00:00Z",
-				"Commit": "",
-				"Refs": null
-			},
-			{
-				"Repository": "docs-cn",
-				"Number": 4495,
-				"Title": "pessimistic trx: cleanup wording (#4446)",
-				"Url": "https://github.com/pingcap/docs-cn/pull/4495",
-				"State": "MERGED",
-				"MergeTarget": "release-4.0",
-				"MergedAt": "2020-09-14T05:46:07Z",
-				"Commit": "28d46bfbe1c901c49355e5e0d1915d3a5022e5e3",
-				"Refs": null
-			}
-		]
-	},
-	{
 		"Number": 17801,
 		"Title": "P3-[4.0-bug-hunting]-[Character Set Support]-Documentation incorrect",
 		"Url": "https://github.com/pingcap/tidb/issues/17801",
@@ -14711,6 +14554,213 @@
 				"MergeTarget": "release-4.0",
 				"MergedAt": "2020-09-10T11:02:26Z",
 				"Commit": "36bae213e48fe335be5f08f495ffef221050db57",
+				"Refs": null
+			}
+		]
+	},
+	{
+		"Number": 17799,
+		"Title": "P3-[4.0-bug-hunting]-[Pessimistic Transaction]-Documentation does not make default clear",
+		"Url": "https://github.com/pingcap/tidb/issues/17799",
+		"ClosedAt": "2020-08-10T06:34:35Z",
+		"Severity": "",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "docs",
+			"Number": 3475,
+			"Title": "pessimistic trx: cleanup wording",
+			"Url": "https://github.com/pingcap/docs/pull/3475",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2020-08-10T06:34:35Z",
+			"Commit": "1f504cdb22ac48c41a81b3871555301df938cd5d",
+			"Refs": null
+		},
+		"CloserCherryPicked": [
+			{
+				"Repository": "docs",
+				"Number": 3590,
+				"Title": "pessimistic trx: cleanup wording (#3475)",
+				"Url": "https://github.com/pingcap/docs/pull/3590",
+				"State": "CLOSED",
+				"MergeTarget": "release-3.0",
+				"MergedAt": "0001-01-01T00:00:00Z",
+				"Commit": "",
+				"Refs": null
+			},
+			{
+				"Repository": "docs",
+				"Number": 3591,
+				"Title": "pessimistic trx: cleanup wording (#3475)",
+				"Url": "https://github.com/pingcap/docs/pull/3591",
+				"State": "CLOSED",
+				"MergeTarget": "release-3.1",
+				"MergedAt": "0001-01-01T00:00:00Z",
+				"Commit": "",
+				"Refs": null
+			},
+			{
+				"Repository": "docs",
+				"Number": 3592,
+				"Title": "pessimistic trx: cleanup wording (#3475)",
+				"Url": "https://github.com/pingcap/docs/pull/3592",
+				"State": "MERGED",
+				"MergeTarget": "release-4.0",
+				"MergedAt": "2020-08-10T16:28:36Z",
+				"Commit": "86226cf97da251e9dc76fe0c9602dd8e1123ad47",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4446,
+				"Title": "pessimistic trx: cleanup wording",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4446",
+				"State": "MERGED",
+				"MergeTarget": "master",
+				"MergedAt": "2020-09-14T03:06:08Z",
+				"Commit": "6ee9cd5eb9c826e28e207a86c14a41fdc50c9c6e",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4493,
+				"Title": "pessimistic trx: cleanup wording (#4446)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4493",
+				"State": "CLOSED",
+				"MergeTarget": "release-3.0",
+				"MergedAt": "0001-01-01T00:00:00Z",
+				"Commit": "",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4494,
+				"Title": "pessimistic trx: cleanup wording (#4446)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4494",
+				"State": "CLOSED",
+				"MergeTarget": "release-3.1",
+				"MergedAt": "0001-01-01T00:00:00Z",
+				"Commit": "",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4495,
+				"Title": "pessimistic trx: cleanup wording (#4446)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4495",
+				"State": "MERGED",
+				"MergeTarget": "release-4.0",
+				"MergedAt": "2020-09-14T05:46:07Z",
+				"Commit": "28d46bfbe1c901c49355e5e0d1915d3a5022e5e3",
+				"Refs": null
+			}
+		]
+	},
+	{
+		"Number": 17800,
+		"Title": "P3-[4.0-bug-hunting]-[LOAD DATA]-Confusing reference to variable",
+		"Url": "https://github.com/pingcap/tidb/issues/17800",
+		"ClosedAt": "2020-07-30T03:11:49Z",
+		"Severity": "",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "docs",
+			"Number": 3474,
+			"Title": "sql-statements: improve load data",
+			"Url": "https://github.com/pingcap/docs/pull/3474",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2020-07-30T03:11:49Z",
+			"Commit": "d28c01c7af74521df5e7af88244bc69b16382a3c",
+			"Refs": null
+		},
+		"CloserCherryPicked": [
+			{
+				"Repository": "docs",
+				"Number": 3477,
+				"Title": "sql-statements: improve load data (#3474)",
+				"Url": "https://github.com/pingcap/docs/pull/3477",
+				"State": "MERGED",
+				"MergeTarget": "release-2.1",
+				"MergedAt": "2020-07-30T03:17:37Z",
+				"Commit": "1e2231d26ffa65ce77b580d0822ecc1c3e1be43c",
+				"Refs": null
+			},
+			{
+				"Repository": "docs",
+				"Number": 3478,
+				"Title": "sql-statements: improve load data (#3474)",
+				"Url": "https://github.com/pingcap/docs/pull/3478",
+				"State": "MERGED",
+				"MergeTarget": "release-3.0",
+				"MergedAt": "2020-07-30T03:19:48Z",
+				"Commit": "2206c4d9adc4ffa6fa6f112b78552bc7c4d35122",
+				"Refs": null
+			},
+			{
+				"Repository": "docs",
+				"Number": 3479,
+				"Title": "sql-statements: improve load data (#3474)",
+				"Url": "https://github.com/pingcap/docs/pull/3479",
+				"State": "MERGED",
+				"MergeTarget": "release-3.1",
+				"MergedAt": "2020-07-30T03:24:03Z",
+				"Commit": "d42ccc065a21b70860de6ab90f84ded443318dd5",
+				"Refs": null
+			},
+			{
+				"Repository": "docs",
+				"Number": 3480,
+				"Title": "sql-statements: improve load data (#3474)",
+				"Url": "https://github.com/pingcap/docs/pull/3480",
+				"State": "MERGED",
+				"MergeTarget": "release-4.0",
+				"MergedAt": "2020-07-30T03:25:33Z",
+				"Commit": "84c77112644b8feaf43d7af827b9612c9f103d8a",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4119,
+				"Title": "sql-statements: improve load data",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4119",
+				"State": "MERGED",
+				"MergeTarget": "master",
+				"MergedAt": "2020-07-30T08:25:50Z",
+				"Commit": "2fcac40ee3160590d29bef596a6d1bbdddda3390",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4124,
+				"Title": "sql-statements: improve load data (#4119)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4124",
+				"State": "MERGED",
+				"MergeTarget": "release-2.1",
+				"MergedAt": "2020-07-30T08:41:13Z",
+				"Commit": "84b734d05ee2d19d5add92d084de45b5a7d09c6c",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4125,
+				"Title": "sql-statements: improve load data (#4119)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4125",
+				"State": "MERGED",
+				"MergeTarget": "release-3.0",
+				"MergedAt": "2020-07-30T08:42:33Z",
+				"Commit": "1fc93eb15266a18e98ee8e3f95fe59ec94ea9598",
+				"Refs": null
+			},
+			{
+				"Repository": "docs-cn",
+				"Number": 4126,
+				"Title": "sql-statements: improve load data (#4119)",
+				"Url": "https://github.com/pingcap/docs-cn/pull/4126",
+				"State": "MERGED",
+				"MergeTarget": "release-3.1",
+				"MergedAt": "2020-07-30T08:43:02Z",
+				"Commit": "cd4285efbda693f2ef87faaaf9c399dea6a82d05",
 				"Refs": null
 			}
 		]
@@ -15620,20 +15670,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10543,
-		"Title": "Inconsisitent Behaviour with Mysql When query AVG(duration), AVG(date) and AVG(datetime)",
-		"Url": "https://github.com/pingcap/tidb/issues/10543",
-		"ClosedAt": "2021-02-18T09:38:17Z",
+		"Number": 11691,
+		"Title": "trace format='json' puts illegal linebreaks into json output",
+		"Url": "https://github.com/pingcap/tidb/issues/11691",
+		"ClosedAt": "2020-11-27T11:48:56Z",
 		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11691,
-		"Title": "trace format='json' puts illegal linebreaks into json output",
-		"Url": "https://github.com/pingcap/tidb/issues/11691",
-		"ClosedAt": "2020-11-27T11:48:56Z",
+		"Number": 10543,
+		"Title": "Inconsisitent Behaviour with Mysql When query AVG(duration), AVG(date) and AVG(datetime)",
+		"Url": "https://github.com/pingcap/tidb/issues/10543",
+		"ClosedAt": "2021-02-18T09:38:17Z",
 		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -16468,10 +16518,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 27485,
-		"Title": "data race in `executor_test` testSerialSuite2).TestCharsetFeature",
-		"Url": "https://github.com/pingcap/tidb/issues/27485",
-		"ClosedAt": "2021-08-23T10:19:41Z",
+		"Number": 27474,
+		"Title": "data race in `util/collate/collate.go`",
+		"Url": "https://github.com/pingcap/tidb/issues/27474",
+		"ClosedAt": "2021-08-23T10:19:40Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -16488,10 +16538,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 27474,
-		"Title": "data race in `util/collate/collate.go`",
-		"Url": "https://github.com/pingcap/tidb/issues/27474",
-		"ClosedAt": "2021-08-23T10:19:40Z",
+		"Number": 27485,
+		"Title": "data race in `executor_test` testSerialSuite2).TestCharsetFeature",
+		"Url": "https://github.com/pingcap/tidb/issues/27485",
+		"ClosedAt": "2021-08-23T10:19:41Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -18918,9 +18968,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25972,
-		"Title": "`show gants` result error while user only have grant option privileges for db",
-		"Url": "https://github.com/pingcap/tidb/issues/25972",
+		"Number": 26451,
+		"Title": "`show grants` does not handle Grant option directly",
+		"Url": "https://github.com/pingcap/tidb/issues/26451",
 		"ClosedAt": "2021-08-05T03:49:13Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -18938,9 +18988,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 26451,
-		"Title": "`show grants` does not handle Grant option directly",
-		"Url": "https://github.com/pingcap/tidb/issues/26451",
+		"Number": 25972,
+		"Title": "`show gants` result error while user only have grant option privileges for db",
+		"Url": "https://github.com/pingcap/tidb/issues/25972",
 		"ClosedAt": "2021-08-05T03:49:13Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -19060,10 +19110,10 @@
 		]
 	},
 	{
-		"Number": 26684,
-		"Title": "Unstable test `analyze_test.go:950: testSerialSuite2.TestIssue20874`",
-		"Url": "https://github.com/pingcap/tidb/issues/26684",
-		"ClosedAt": "2021-08-04T07:19:09Z",
+		"Number": 25188,
+		"Title": "unstable test `analyze_test.go:561: testSuite1.TestAnalyzeIndex`",
+		"Url": "https://github.com/pingcap/tidb/issues/25188",
+		"ClosedAt": "2021-08-04T07:19:10Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -19092,10 +19142,10 @@
 		]
 	},
 	{
-		"Number": 25188,
-		"Title": "unstable test `analyze_test.go:561: testSuite1.TestAnalyzeIndex`",
-		"Url": "https://github.com/pingcap/tidb/issues/25188",
-		"ClosedAt": "2021-08-04T07:19:10Z",
+		"Number": 26684,
+		"Title": "Unstable test `analyze_test.go:950: testSerialSuite2.TestIssue20874`",
+		"Url": "https://github.com/pingcap/tidb/issues/26684",
+		"ClosedAt": "2021-08-04T07:19:09Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -19507,46 +19557,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 20121,
-		"Title": "datetime and year comparison error ",
-		"Url": "https://github.com/pingcap/tidb/issues/20121",
-		"ClosedAt": "2020-12-18T09:19:31Z",
-		"Severity": "critical",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "tidb",
-			"Number": 20233,
-			"Title": "expression, types: fix datetime and year comparison error",
-			"Url": "https://github.com/pingcap/tidb/pull/20233",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2020-12-18T09:19:31Z",
-			"Commit": "b232a23e7ad3122348bcee1d7f354cf3793a61e4",
-			"Refs": null
-		},
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 18977,
-		"Title": "Can't create latin1 enum",
-		"Url": "https://github.com/pingcap/tidb/issues/18977",
-		"ClosedAt": "2020-11-04T09:41:03Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "tidb",
-			"Number": 20459,
-			"Title": "ddl: convert hexLit to stringLit in enum and set default value.",
-			"Url": "https://github.com/pingcap/tidb/pull/20459",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2020-11-04T09:41:03Z",
-			"Commit": "09c941fd8cec4af5bafd4d0481c26babe755bdb0",
-			"Refs": null
-		},
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 20217,
 		"Title": "create table with invalid `double(50)` data type should raise a syntax error  ",
 		"Url": "https://github.com/pingcap/tidb/issues/20217",
@@ -19572,6 +19582,46 @@
 			"MergeTarget": "master",
 			"MergedAt": "2020-11-16T11:03:27Z",
 			"Commit": "7c88ca7974048491f0754668f3a0fca0ef78391f",
+			"Refs": null
+		},
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 18977,
+		"Title": "Can't create latin1 enum",
+		"Url": "https://github.com/pingcap/tidb/issues/18977",
+		"ClosedAt": "2020-11-04T09:41:03Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 20459,
+			"Title": "ddl: convert hexLit to stringLit in enum and set default value.",
+			"Url": "https://github.com/pingcap/tidb/pull/20459",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2020-11-04T09:41:03Z",
+			"Commit": "09c941fd8cec4af5bafd4d0481c26babe755bdb0",
+			"Refs": null
+		},
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 20121,
+		"Title": "datetime and year comparison error ",
+		"Url": "https://github.com/pingcap/tidb/issues/20121",
+		"ClosedAt": "2020-12-18T09:19:31Z",
+		"Severity": "critical",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 20233,
+			"Title": "expression, types: fix datetime and year comparison error",
+			"Url": "https://github.com/pingcap/tidb/pull/20233",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2020-12-18T09:19:31Z",
+			"Commit": "b232a23e7ad3122348bcee1d7f354cf3793a61e4",
 			"Refs": null
 		},
 		"CloserCherryPicked": null
@@ -22679,16 +22729,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25635,
-		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25635",
-		"ClosedAt": "2021-06-22T01:05:51Z",
-		"Severity": "",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 25636,
 		"Title": "unstable test `testSuite.TestIssue25506`",
 		"Url": "https://github.com/pingcap/tidb/issues/25636",
@@ -22699,10 +22739,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25630,
-		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
-		"Url": "https://github.com/pingcap/tidb/issues/25630",
-		"ClosedAt": "2021-06-22T01:05:50Z",
+		"Number": 25635,
+		"Title": "unstable test `testSuite.TestIssue25506`",
+		"Url": "https://github.com/pingcap/tidb/issues/25635",
+		"ClosedAt": "2021-06-22T01:05:51Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -22739,10 +22779,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25626,
-		"Title": "unstable test `testDBSuite5.TestAddPrimaryKeyRollback1`",
-		"Url": "https://github.com/pingcap/tidb/issues/25626",
-		"ClosedAt": "2021-06-22T01:05:49Z",
+		"Number": 25630,
+		"Title": "unstable test `testPrepareSerialSuite.TestPrepareCacheForPartition`",
+		"Url": "https://github.com/pingcap/tidb/issues/25630",
+		"ClosedAt": "2021-06-22T01:05:50Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -22759,10 +22799,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25629,
-		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25629",
-		"ClosedAt": "2021-06-22T01:05:50Z",
+		"Number": 25626,
+		"Title": "unstable test `testDBSuite5.TestAddPrimaryKeyRollback1`",
+		"Url": "https://github.com/pingcap/tidb/issues/25626",
+		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -22779,10 +22819,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25624,
+		"Number": 25629,
 		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25624",
-		"ClosedAt": "2021-06-22T01:05:49Z",
+		"Url": "https://github.com/pingcap/tidb/issues/25629",
+		"ClosedAt": "2021-06-22T01:05:50Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -22823,6 +22863,16 @@
 		"Title": "unstable test `testSuite.TestIssue25506`",
 		"Url": "https://github.com/pingcap/tidb/issues/25623",
 		"ClosedAt": "2021-06-22T01:05:48Z",
+		"Severity": "",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 25624,
+		"Title": "unstable test `testSuite.TestIssue25506`",
+		"Url": "https://github.com/pingcap/tidb/issues/25624",
+		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -24024,6 +24074,38 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 25350,
+		"Title": "with sem enabled, it might require RESTRICTED_CONNECTION_ADMIN to kill your own connections",
+		"Url": "https://github.com/pingcap/tidb/issues/25350",
+		"ClosedAt": "2021-06-15T04:28:37Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": {
+			"Repository": "tidb",
+			"Number": 25316,
+			"Title": "*: fix sem dynamic privilege permission issues",
+			"Url": "https://github.com/pingcap/tidb/pull/25316",
+			"State": "MERGED",
+			"MergeTarget": "master",
+			"MergedAt": "2021-06-15T04:28:37Z",
+			"Commit": "b51a9ca71ce18b436ed93c889dba98a991a83b07",
+			"Refs": null
+		},
+		"CloserCherryPicked": [
+			{
+				"Repository": "tidb",
+				"Number": 25408,
+				"Title": "*: fix sem dynamic privilege permission issues (#25316)",
+				"Url": "https://github.com/pingcap/tidb/pull/25408",
+				"State": "MERGED",
+				"MergeTarget": "release-5.1",
+				"MergedAt": "2021-06-17T03:48:38Z",
+				"Commit": "d7ea05a2c6867e659f505612a1a63d907b86ab12",
+				"Refs": null
+			}
+		]
+	},
+	{
 		"Number": 25312,
 		"Title": "sem does not support dynamic privilege RESTRICTED_CONNECTION_ADMIN",
 		"Url": "https://github.com/pingcap/tidb/issues/25312",
@@ -24061,38 +24143,6 @@
 		"Url": "https://github.com/pingcap/tidb/issues/25314",
 		"ClosedAt": "2021-06-15T04:28:37Z",
 		"Severity": "minor",
-		"AffectedVersions": null,
-		"ClosedByPR": {
-			"Repository": "tidb",
-			"Number": 25316,
-			"Title": "*: fix sem dynamic privilege permission issues",
-			"Url": "https://github.com/pingcap/tidb/pull/25316",
-			"State": "MERGED",
-			"MergeTarget": "master",
-			"MergedAt": "2021-06-15T04:28:37Z",
-			"Commit": "b51a9ca71ce18b436ed93c889dba98a991a83b07",
-			"Refs": null
-		},
-		"CloserCherryPicked": [
-			{
-				"Repository": "tidb",
-				"Number": 25408,
-				"Title": "*: fix sem dynamic privilege permission issues (#25316)",
-				"Url": "https://github.com/pingcap/tidb/pull/25408",
-				"State": "MERGED",
-				"MergeTarget": "release-5.1",
-				"MergedAt": "2021-06-17T03:48:38Z",
-				"Commit": "d7ea05a2c6867e659f505612a1a63d907b86ab12",
-				"Refs": null
-			}
-		]
-	},
-	{
-		"Number": 25350,
-		"Title": "with sem enabled, it might require RESTRICTED_CONNECTION_ADMIN to kill your own connections",
-		"Url": "https://github.com/pingcap/tidb/issues/25350",
-		"ClosedAt": "2021-06-15T04:28:37Z",
-		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -25794,9 +25844,9 @@
 		]
 	},
 	{
-		"Number": 24735,
-		"Title": "data race ",
-		"Url": "https://github.com/pingcap/tidb/issues/24735",
+		"Number": 24712,
+		"Title": "TestSecurityEnhancedModeRestrictedTables failed",
+		"Url": "https://github.com/pingcap/tidb/issues/24712",
 		"ClosedAt": "2021-05-19T15:55:42Z",
 		"Severity": "major",
 		"AffectedVersions": null,
@@ -25814,9 +25864,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 24712,
-		"Title": "TestSecurityEnhancedModeRestrictedTables failed",
-		"Url": "https://github.com/pingcap/tidb/issues/24712",
+		"Number": 24735,
+		"Title": "data race ",
+		"Url": "https://github.com/pingcap/tidb/issues/24735",
 		"ClosedAt": "2021-05-19T15:55:42Z",
 		"Severity": "major",
 		"AffectedVersions": null,
@@ -29496,9 +29546,9 @@
 		]
 	},
 	{
-		"Number": 23653,
-		"Title": "Index join with point get causes wrong results",
-		"Url": "https://github.com/pingcap/tidb/issues/23653",
+		"Number": 23657,
+		"Title": "Unexpected empty set returned by index join",
+		"Url": "https://github.com/pingcap/tidb/issues/23657",
 		"ClosedAt": "2021-03-30T10:31:24Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -29539,9 +29589,9 @@
 		]
 	},
 	{
-		"Number": 23657,
-		"Title": "Unexpected empty set returned by index join",
-		"Url": "https://github.com/pingcap/tidb/issues/23657",
+		"Number": 23653,
+		"Title": "Index join with point get causes wrong results",
+		"Url": "https://github.com/pingcap/tidb/issues/23653",
 		"ClosedAt": "2021-03-30T10:31:24Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -36519,11 +36569,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11883,
-		"Title": "unexpect invalid json text error when query with `json_extract` ",
-		"Url": "https://github.com/pingcap/tidb/issues/11883",
+		"Number": 13710,
+		"Title": "Incompatible issue related to JSON functions",
+		"Url": "https://github.com/pingcap/tidb/issues/13710",
 		"ClosedAt": "2020-12-23T03:54:18Z",
-		"Severity": "major",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -36551,11 +36601,11 @@
 		]
 	},
 	{
-		"Number": 13710,
-		"Title": "Incompatible issue related to JSON functions",
-		"Url": "https://github.com/pingcap/tidb/issues/13710",
+		"Number": 11883,
+		"Title": "unexpect invalid json text error when query with `json_extract` ",
+		"Url": "https://github.com/pingcap/tidb/issues/11883",
 		"ClosedAt": "2020-12-23T03:54:18Z",
-		"Severity": "moderate",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -36761,9 +36811,9 @@
 		]
 	},
 	{
-		"Number": 9765,
-		"Title": "`LEAST` and `GREATEST` are not compatible with Mysql",
-		"Url": "https://github.com/pingcap/tidb/issues/9765",
+		"Number": 19534,
+		"Title": "Expression: errors from comparing different data types",
+		"Url": "https://github.com/pingcap/tidb/issues/19534",
 		"ClosedAt": "2020-12-22T06:58:33Z",
 		"Severity": "major",
 		"AffectedVersions": null,
@@ -36781,9 +36831,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 19534,
-		"Title": "Expression: errors from comparing different data types",
-		"Url": "https://github.com/pingcap/tidb/issues/19534",
+		"Number": 9765,
+		"Title": "`LEAST` and `GREATEST` are not compatible with Mysql",
+		"Url": "https://github.com/pingcap/tidb/issues/9765",
 		"ClosedAt": "2020-12-22T06:58:33Z",
 		"Severity": "major",
 		"AffectedVersions": null,
@@ -37103,11 +37153,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17748,
-		"Title": "P1-[4.0 bug hunting]-[Aggregate Fcuntion]-`group_concat` incompatible with MySQL",
-		"Url": "https://github.com/pingcap/tidb/issues/17748",
+		"Number": 18350,
+		"Title": "wrong result when evaluating correlated aggregate functions",
+		"Url": "https://github.com/pingcap/tidb/issues/18350",
 		"ClosedAt": "2020-12-18T06:51:36Z",
-		"Severity": "moderate",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -37123,11 +37173,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 18350,
-		"Title": "wrong result when evaluating correlated aggregate functions",
-		"Url": "https://github.com/pingcap/tidb/issues/18350",
+		"Number": 17748,
+		"Title": "P1-[4.0 bug hunting]-[Aggregate Fcuntion]-`group_concat` incompatible with MySQL",
+		"Url": "https://github.com/pingcap/tidb/issues/17748",
 		"ClosedAt": "2020-12-18T06:51:36Z",
-		"Severity": "critical",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -41151,9 +41201,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 21227,
-		"Title": "check partition definition get wrong result if column is date or time type",
-		"Url": "https://github.com/pingcap/tidb/issues/21227",
+		"Number": 21225,
+		"Title": "time type column should enabled in columns partition",
+		"Url": "https://github.com/pingcap/tidb/issues/21225",
 		"ClosedAt": "2020-11-25T03:46:37Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -41183,9 +41233,9 @@
 		]
 	},
 	{
-		"Number": 21225,
-		"Title": "time type column should enabled in columns partition",
-		"Url": "https://github.com/pingcap/tidb/issues/21225",
+		"Number": 21227,
+		"Title": "check partition definition get wrong result if column is date or time type",
+		"Url": "https://github.com/pingcap/tidb/issues/21227",
 		"ClosedAt": "2020-11-25T03:46:37Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -42136,10 +42186,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11872,
-		"Title": "MAX() Func's result will be incorrect when have variable assigned statement like '@A :='",
-		"Url": "https://github.com/pingcap/tidb/issues/11872",
-		"ClosedAt": "2020-11-17T09:03:43Z",
+		"Number": 11212,
+		"Title": "Different results of Function :=(Assign a value)",
+		"Url": "https://github.com/pingcap/tidb/issues/11212",
+		"ClosedAt": "2020-11-17T09:03:42Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -42156,10 +42206,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11212,
-		"Title": "Different results of Function :=(Assign a value)",
-		"Url": "https://github.com/pingcap/tidb/issues/11212",
-		"ClosedAt": "2020-11-17T09:03:42Z",
+		"Number": 11872,
+		"Title": "MAX() Func's result will be incorrect when have variable assigned statement like '@A :='",
+		"Url": "https://github.com/pingcap/tidb/issues/11872",
+		"ClosedAt": "2020-11-17T09:03:43Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -42775,11 +42825,11 @@
 		]
 	},
 	{
-		"Number": 15844,
-		"Title": "NATURAL RIGHT JOIN results in an unexpected \"Unknown column\" error",
-		"Url": "https://github.com/pingcap/tidb/issues/15844",
+		"Number": 20958,
+		"Title": "The query result using INNER JOIN xxx USING(col1) didn't return col1 value",
+		"Url": "https://github.com/pingcap/tidb/issues/20958",
 		"ClosedAt": "2020-11-12T10:04:00Z",
-		"Severity": "moderate",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -42807,11 +42857,11 @@
 		]
 	},
 	{
-		"Number": 20958,
-		"Title": "The query result using INNER JOIN xxx USING(col1) didn't return col1 value",
-		"Url": "https://github.com/pingcap/tidb/issues/20958",
+		"Number": 15844,
+		"Title": "NATURAL RIGHT JOIN results in an unexpected \"Unknown column\" error",
+		"Url": "https://github.com/pingcap/tidb/issues/15844",
 		"ClosedAt": "2020-11-12T10:04:00Z",
-		"Severity": "critical",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -42882,9 +42932,9 @@
 		]
 	},
 	{
-		"Number": 20403,
-		"Title": "wrong result in \"not in\" statement",
-		"Url": "https://github.com/pingcap/tidb/issues/20403",
+		"Number": 13389,
+		"Title": "planner, executor: in subquery dose not distinguish NULL",
+		"Url": "https://github.com/pingcap/tidb/issues/13389",
 		"ClosedAt": "2020-11-12T09:16:33Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -42902,10 +42952,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13389,
-		"Title": "planner, executor: in subquery dose not distinguish NULL",
-		"Url": "https://github.com/pingcap/tidb/issues/13389",
-		"ClosedAt": "2020-11-12T09:16:33Z",
+		"Number": 13743,
+		"Title": "planner: don't push down conditions from in subquery with aggregators even though the columns in conditions is not null",
+		"Url": "https://github.com/pingcap/tidb/issues/13743",
+		"ClosedAt": "2020-11-12T09:16:32Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -42942,10 +42992,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13743,
-		"Title": "planner: don't push down conditions from in subquery with aggregators even though the columns in conditions is not null",
-		"Url": "https://github.com/pingcap/tidb/issues/13743",
-		"ClosedAt": "2020-11-12T09:16:32Z",
+		"Number": 20403,
+		"Title": "wrong result in \"not in\" statement",
+		"Url": "https://github.com/pingcap/tidb/issues/20403",
+		"ClosedAt": "2020-11-12T09:16:33Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -46088,20 +46138,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 20195,
-		"Title": "Unknown character set: 'utf8mb4'",
-		"Url": "https://github.com/pingcap/tidb/issues/20195",
-		"ClosedAt": "2020-09-25T03:48:44Z",
+		"Number": 20171,
+		"Title": "test: TestCoprocessorOOMAction unstable",
+		"Url": "https://github.com/pingcap/tidb/issues/20171",
+		"ClosedAt": "2020-09-24T05:58:50Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 20171,
-		"Title": "test: TestCoprocessorOOMAction unstable",
-		"Url": "https://github.com/pingcap/tidb/issues/20171",
-		"ClosedAt": "2020-09-24T05:58:50Z",
+		"Number": 20195,
+		"Title": "Unknown character set: 'utf8mb4'",
+		"Url": "https://github.com/pingcap/tidb/issues/20195",
+		"ClosedAt": "2020-09-25T03:48:44Z",
 		"Severity": "",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -47664,9 +47714,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17804,
-		"Title": "P2-[4.0 bug hunting]-[SQL Plan Management]-Inserting into a partitioned table results in an \"Missing session variable when eval builtin\" error",
-		"Url": "https://github.com/pingcap/tidb/issues/17804",
+		"Number": 17806,
+		"Title": "P2-[4.0 bug hunting]-[SQL Plan Management]-Internal error message when using CASE in partitioned table",
+		"Url": "https://github.com/pingcap/tidb/issues/17806",
 		"ClosedAt": "2020-08-31T07:07:24Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -47707,9 +47757,9 @@
 		]
 	},
 	{
-		"Number": 17806,
-		"Title": "P2-[4.0 bug hunting]-[SQL Plan Management]-Internal error message when using CASE in partitioned table",
-		"Url": "https://github.com/pingcap/tidb/issues/17806",
+		"Number": 17804,
+		"Title": "P2-[4.0 bug hunting]-[SQL Plan Management]-Inserting into a partitioned table results in an \"Missing session variable when eval builtin\" error",
+		"Url": "https://github.com/pingcap/tidb/issues/17804",
 		"ClosedAt": "2020-08-31T07:07:24Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -48589,9 +48639,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 19431,
-		"Title": "Apply return non empty set in transaction",
-		"Url": "https://github.com/pingcap/tidb/issues/19431",
+		"Number": 19435,
+		"Title": "apply return wrong result in transaction",
+		"Url": "https://github.com/pingcap/tidb/issues/19435",
 		"ClosedAt": "2020-08-26T07:25:41Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -48643,9 +48693,9 @@
 		]
 	},
 	{
-		"Number": 19435,
-		"Title": "apply return wrong result in transaction",
-		"Url": "https://github.com/pingcap/tidb/issues/19435",
+		"Number": 19431,
+		"Title": "Apply return non empty set in transaction",
+		"Url": "https://github.com/pingcap/tidb/issues/19431",
 		"ClosedAt": "2020-08-26T07:25:41Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -49879,9 +49929,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17216,
-		"Title": "select count(distinct decimal(40, 20)) get wrong result",
-		"Url": "https://github.com/pingcap/tidb/issues/17216",
+		"Number": 19112,
+		"Title": "Got incorrect result when using hash join",
+		"Url": "https://github.com/pingcap/tidb/issues/19112",
 		"ClosedAt": "2020-08-13T11:29:18Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -49899,9 +49949,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 19112,
-		"Title": "Got incorrect result when using hash join",
-		"Url": "https://github.com/pingcap/tidb/issues/19112",
+		"Number": 17216,
+		"Title": "select count(distinct decimal(40, 20)) get wrong result",
+		"Url": "https://github.com/pingcap/tidb/issues/17216",
 		"ClosedAt": "2020-08-13T11:29:18Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
@@ -64498,9 +64548,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13202,
-		"Title": "Error thrown when there're two table with same name but from different database in the `UPDATE` stmt",
-		"Url": "https://github.com/pingcap/tidb/issues/13202",
+		"Number": 13201,
+		"Title": "Wrong update result when stored there's generated column and subquery in UPDATE",
+		"Url": "https://github.com/pingcap/tidb/issues/13201",
 		"ClosedAt": "2019-11-11T04:50:36Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -64552,9 +64602,9 @@
 		]
 	},
 	{
-		"Number": 13201,
-		"Title": "Wrong update result when stored there's generated column and subquery in UPDATE",
-		"Url": "https://github.com/pingcap/tidb/issues/13201",
+		"Number": 13202,
+		"Title": "Error thrown when there're two table with same name but from different database in the `UPDATE` stmt",
+		"Url": "https://github.com/pingcap/tidb/issues/13202",
 		"ClosedAt": "2019-11-11T04:50:36Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -66365,9 +66415,9 @@
 		]
 	},
 	{
-		"Number": 11626,
-		"Title": "using window function \"first_value\" get \"index out of range\" runtime error",
-		"Url": "https://github.com/pingcap/tidb/issues/11626",
+		"Number": 11614,
+		"Title": "window function rank() sometimes lead to tidb-server panic ",
+		"Url": "https://github.com/pingcap/tidb/issues/11614",
 		"ClosedAt": "2019-08-22T02:57:55Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -66397,9 +66447,9 @@
 		]
 	},
 	{
-		"Number": 11614,
-		"Title": "window function rank() sometimes lead to tidb-server panic ",
-		"Url": "https://github.com/pingcap/tidb/issues/11614",
+		"Number": 11626,
+		"Title": "using window function \"first_value\" get \"index out of range\" runtime error",
+		"Url": "https://github.com/pingcap/tidb/issues/11626",
 		"ClosedAt": "2019-08-22T02:57:55Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -66576,9 +66626,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11544,
-		"Title": "Index Join executes wrongly when there's index with column has length",
-		"Url": "https://github.com/pingcap/tidb/issues/11544",
+		"Number": 11390,
+		"Title": "wrong results of `IndexLookupJoin` in some cases",
+		"Url": "https://github.com/pingcap/tidb/issues/11390",
 		"ClosedAt": "2019-08-16T07:04:47Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -66608,9 +66658,9 @@
 		]
 	},
 	{
-		"Number": 11390,
-		"Title": "wrong results of `IndexLookupJoin` in some cases",
-		"Url": "https://github.com/pingcap/tidb/issues/11390",
+		"Number": 11544,
+		"Title": "Index Join executes wrongly when there's index with column has length",
+		"Url": "https://github.com/pingcap/tidb/issues/11544",
 		"ClosedAt": "2019-08-16T07:04:47Z",
 		"Severity": "",
 		"AffectedVersions": null,
