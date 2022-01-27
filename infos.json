@@ -18591,26 +18591,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 12450,
-		"Title": " For float(M,D), double(M,D) or decimal(M,D), M must be \u003e= D",
-		"Url": "https://github.com/pingcap/tidb/issues/12450",
-		"ClosedAt": "2020-12-08T13:11:38Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 12575,
-		"Title": "data race in expression package",
-		"Url": "https://github.com/pingcap/tidb/issues/12575",
-		"ClosedAt": "2020-12-09T08:28:53Z",
-		"Severity": "major",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 11452,
 		"Title": "executor: unit test failed.",
 		"Url": "https://github.com/pingcap/tidb/issues/11452",
@@ -18621,11 +18601,31 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 12450,
+		"Title": " For float(M,D), double(M,D) or decimal(M,D), M must be \u003e= D",
+		"Url": "https://github.com/pingcap/tidb/issues/12450",
+		"ClosedAt": "2020-12-08T13:11:38Z",
+		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 12445,
 		"Title": "runtime error: invalid memory address or nil pointer dereference",
 		"Url": "https://github.com/pingcap/tidb/issues/12445",
 		"ClosedAt": "2020-11-09T11:29:49Z",
 		"Severity": "critical",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 12575,
+		"Title": "data race in expression package",
+		"Url": "https://github.com/pingcap/tidb/issues/12575",
+		"ClosedAt": "2020-12-09T08:28:53Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -18821,16 +18821,6 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 14804,
-		"Title": "unit test TestVectorizedBuiltinTimeFunc fails",
-		"Url": "https://github.com/pingcap/tidb/issues/14804",
-		"ClosedAt": "2021-01-06T05:25:54Z",
-		"Severity": "minor",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
 		"Number": 14280,
 		"Title": "an unstable SQL execution in copr-test",
 		"Url": "https://github.com/pingcap/tidb/issues/14280",
@@ -18861,30 +18851,20 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 14804,
+		"Title": "unit test TestVectorizedBuiltinTimeFunc fails",
+		"Url": "https://github.com/pingcap/tidb/issues/14804",
+		"ClosedAt": "2021-01-06T05:25:54Z",
+		"Severity": "minor",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 14180,
 		"Title": "unit test TestCluster fails with message `etcdserver: lease already exists`",
 		"Url": "https://github.com/pingcap/tidb/issues/14180",
 		"ClosedAt": "2021-01-11T09:32:17Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 13679,
-		"Title": "test fails at TestAddPrimaryKey4",
-		"Url": "https://github.com/pingcap/tidb/issues/13679",
-		"ClosedAt": "2021-01-06T04:49:01Z",
-		"Severity": "moderate",
-		"AffectedVersions": null,
-		"ClosedByPR": null,
-		"CloserCherryPicked": null
-	},
-	{
-		"Number": 13549,
-		"Title": "TestModifyColumnRollBack CI fail",
-		"Url": "https://github.com/pingcap/tidb/issues/13549",
-		"ClosedAt": "2021-01-06T05:22:51Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -18901,6 +18881,16 @@
 		"CloserCherryPicked": null
 	},
 	{
+		"Number": 13549,
+		"Title": "TestModifyColumnRollBack CI fail",
+		"Url": "https://github.com/pingcap/tidb/issues/13549",
+		"ClosedAt": "2021-01-06T05:22:51Z",
+		"Severity": "moderate",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
 		"Number": 13728,
 		"Title": "unit test failed in `TestAddPrimaryKey3`",
 		"Url": "https://github.com/pingcap/tidb/issues/13728",
@@ -18911,20 +18901,20 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13289,
-		"Title": "TestTableSplit failed in local environment",
-		"Url": "https://github.com/pingcap/tidb/issues/13289",
-		"ClosedAt": "2020-12-01T06:57:15Z",
+		"Number": 13679,
+		"Title": "test fails at TestAddPrimaryKey4",
+		"Url": "https://github.com/pingcap/tidb/issues/13679",
+		"ClosedAt": "2021-01-06T04:49:01Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13480,
-		"Title": "TestLoadData fail in tidb_test",
-		"Url": "https://github.com/pingcap/tidb/issues/13480",
-		"ClosedAt": "2021-01-06T05:17:29Z",
+		"Number": 13289,
+		"Title": "TestTableSplit failed in local environment",
+		"Url": "https://github.com/pingcap/tidb/issues/13289",
+		"ClosedAt": "2020-12-01T06:57:15Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
@@ -18951,11 +18941,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 13225,
-		"Title": "invalid memory address or nil pointer dereference",
-		"Url": "https://github.com/pingcap/tidb/issues/13225",
-		"ClosedAt": "2020-11-19T03:06:22Z",
-		"Severity": "critical",
+		"Number": 13480,
+		"Title": "TestLoadData fail in tidb_test",
+		"Url": "https://github.com/pingcap/tidb/issues/13480",
+		"ClosedAt": "2021-01-06T05:17:29Z",
+		"Severity": "moderate",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -18966,6 +18956,16 @@
 		"Url": "https://github.com/pingcap/tidb/issues/13280",
 		"ClosedAt": "2020-12-08T03:52:27Z",
 		"Severity": "major",
+		"AffectedVersions": null,
+		"ClosedByPR": null,
+		"CloserCherryPicked": null
+	},
+	{
+		"Number": 13225,
+		"Title": "invalid memory address or nil pointer dereference",
+		"Url": "https://github.com/pingcap/tidb/issues/13225",
+		"ClosedAt": "2020-11-19T03:06:22Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -19161,11 +19161,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17631,
-		"Title": "check_dev_2 failed in `testSessionSuite2.SetUpSuite`",
-		"Url": "https://github.com/pingcap/tidb/issues/17631",
-		"ClosedAt": "2021-01-06T05:30:15Z",
-		"Severity": "minor",
+		"Number": 17781,
+		"Title": "P0-[4.0 bug hunting]-[TiKV/TiDB]-TiDB could stuck when execute a query when TiKV in progress stale command ",
+		"Url": "https://github.com/pingcap/tidb/issues/17781",
+		"ClosedAt": "2020-11-10T05:22:58Z",
+		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -19181,11 +19181,11 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17781,
-		"Title": "P0-[4.0 bug hunting]-[TiKV/TiDB]-TiDB could stuck when execute a query when TiKV in progress stale command ",
-		"Url": "https://github.com/pingcap/tidb/issues/17781",
-		"ClosedAt": "2020-11-10T05:22:58Z",
-		"Severity": "critical",
+		"Number": 17631,
+		"Title": "check_dev_2 failed in `testSessionSuite2.SetUpSuite`",
+		"Url": "https://github.com/pingcap/tidb/issues/17631",
+		"ClosedAt": "2021-01-06T05:30:15Z",
+		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": null,
 		"CloserCherryPicked": null
@@ -21392,10 +21392,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 27485,
-		"Title": "data race in `executor_test` testSerialSuite2).TestCharsetFeature",
-		"Url": "https://github.com/pingcap/tidb/issues/27485",
-		"ClosedAt": "2021-08-23T10:19:41Z",
+		"Number": 27474,
+		"Title": "data race in `util/collate/collate.go`",
+		"Url": "https://github.com/pingcap/tidb/issues/27474",
+		"ClosedAt": "2021-08-23T10:19:40Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -21412,10 +21412,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 27474,
-		"Title": "data race in `util/collate/collate.go`",
-		"Url": "https://github.com/pingcap/tidb/issues/27474",
-		"ClosedAt": "2021-08-23T10:19:40Z",
+		"Number": 27485,
+		"Title": "data race in `executor_test` testSerialSuite2).TestCharsetFeature",
+		"Url": "https://github.com/pingcap/tidb/issues/27485",
+		"ClosedAt": "2021-08-23T10:19:41Z",
 		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -23822,9 +23822,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 26451,
-		"Title": "`show grants` does not handle Grant option directly",
-		"Url": "https://github.com/pingcap/tidb/issues/26451",
+		"Number": 25972,
+		"Title": "`show gants` result error while user only have grant option privileges for db",
+		"Url": "https://github.com/pingcap/tidb/issues/25972",
 		"ClosedAt": "2021-08-05T03:49:13Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -23842,9 +23842,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25972,
-		"Title": "`show gants` result error while user only have grant option privileges for db",
-		"Url": "https://github.com/pingcap/tidb/issues/25972",
+		"Number": 26451,
+		"Title": "`show grants` does not handle Grant option directly",
+		"Url": "https://github.com/pingcap/tidb/issues/26451",
 		"ClosedAt": "2021-08-05T03:49:13Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -23964,11 +23964,11 @@
 		]
 	},
 	{
-		"Number": 26684,
-		"Title": "Unstable test `analyze_test.go:950: testSerialSuite2.TestIssue20874`",
-		"Url": "https://github.com/pingcap/tidb/issues/26684",
-		"ClosedAt": "2021-08-04T07:19:09Z",
-		"Severity": "major",
+		"Number": 14931,
+		"Title": "unstable unit test: testShowStatsSuite.TestShowAnalyzeStatus",
+		"Url": "https://github.com/pingcap/tidb/issues/14931",
+		"ClosedAt": "2021-08-04T07:19:10Z",
+		"Severity": "minor",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -23996,11 +23996,11 @@
 		]
 	},
 	{
-		"Number": 14931,
-		"Title": "unstable unit test: testShowStatsSuite.TestShowAnalyzeStatus",
-		"Url": "https://github.com/pingcap/tidb/issues/14931",
-		"ClosedAt": "2021-08-04T07:19:10Z",
-		"Severity": "minor",
+		"Number": 26684,
+		"Title": "Unstable test `analyze_test.go:950: testSerialSuite2.TestIssue20874`",
+		"Url": "https://github.com/pingcap/tidb/issues/26684",
+		"ClosedAt": "2021-08-04T07:19:09Z",
+		"Severity": "major",
 		"AffectedVersions": null,
 		"ClosedByPR": {
 			"Repository": "tidb",
@@ -27663,9 +27663,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25626,
-		"Title": "unstable test `testDBSuite5.TestAddPrimaryKeyRollback1`",
-		"Url": "https://github.com/pingcap/tidb/issues/25626",
+		"Number": 25628,
+		"Title": "unstable test `testSuite.TestIssue25506`",
+		"Url": "https://github.com/pingcap/tidb/issues/25628",
 		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -27673,9 +27673,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 25628,
-		"Title": "unstable test `testSuite.TestIssue25506`",
-		"Url": "https://github.com/pingcap/tidb/issues/25628",
+		"Number": 25626,
+		"Title": "unstable test `testDBSuite5.TestAddPrimaryKeyRollback1`",
+		"Url": "https://github.com/pingcap/tidb/issues/25626",
 		"ClosedAt": "2021-06-22T01:05:49Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -27803,9 +27803,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17797,
-		"Title": "P2-[4.0-bug-hunting]-[Pessimistic Transaction]-Lock Wait Timeout Error Incompatible",
-		"Url": "https://github.com/pingcap/tidb/issues/17797",
+		"Number": 17798,
+		"Title": "P2-[4.0-bug-hunting]-[Pessimistic Transaction]-SHOW PROCESSLIST says \"autocommit\" when not",
+		"Url": "https://github.com/pingcap/tidb/issues/17798",
 		"ClosedAt": "2021-06-21T06:23:33Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -27813,9 +27813,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 17798,
-		"Title": "P2-[4.0-bug-hunting]-[Pessimistic Transaction]-SHOW PROCESSLIST says \"autocommit\" when not",
-		"Url": "https://github.com/pingcap/tidb/issues/17798",
+		"Number": 17797,
+		"Title": "P2-[4.0-bug-hunting]-[Pessimistic Transaction]-Lock Wait Timeout Error Incompatible",
+		"Url": "https://github.com/pingcap/tidb/issues/17797",
 		"ClosedAt": "2021-06-21T06:23:33Z",
 		"Severity": "moderate",
 		"AffectedVersions": null,
@@ -47030,10 +47030,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11212,
-		"Title": "Different results of Function :=(Assign a value)",
-		"Url": "https://github.com/pingcap/tidb/issues/11212",
-		"ClosedAt": "2020-11-17T09:03:42Z",
+		"Number": 11872,
+		"Title": "MAX() Func's result will be incorrect when have variable assigned statement like '@A :='",
+		"Url": "https://github.com/pingcap/tidb/issues/11872",
+		"ClosedAt": "2020-11-17T09:03:43Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -47050,10 +47050,10 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 11872,
-		"Title": "MAX() Func's result will be incorrect when have variable assigned statement like '@A :='",
-		"Url": "https://github.com/pingcap/tidb/issues/11872",
-		"ClosedAt": "2020-11-17T09:03:43Z",
+		"Number": 11212,
+		"Title": "Different results of Function :=(Assign a value)",
+		"Url": "https://github.com/pingcap/tidb/issues/11212",
+		"ClosedAt": "2020-11-17T09:03:42Z",
 		"Severity": "critical",
 		"AffectedVersions": null,
 		"ClosedByPR": {
@@ -73592,9 +73592,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10456,
-		"Title": "Window function panicked when partition by NULL",
-		"Url": "https://github.com/pingcap/tidb/issues/10456",
+		"Number": 10478,
+		"Title": "TiDB doesn't handle sort by NULL correctly",
+		"Url": "https://github.com/pingcap/tidb/issues/10478",
 		"ClosedAt": "2019-05-22T08:30:57Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -73624,9 +73624,9 @@
 		]
 	},
 	{
-		"Number": 10478,
-		"Title": "TiDB doesn't handle sort by NULL correctly",
-		"Url": "https://github.com/pingcap/tidb/issues/10478",
+		"Number": 10456,
+		"Title": "Window function panicked when partition by NULL",
+		"Url": "https://github.com/pingcap/tidb/issues/10456",
 		"ClosedAt": "2019-05-22T08:30:57Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -73800,9 +73800,9 @@
 		"CloserCherryPicked": null
 	},
 	{
-		"Number": 10397,
-		"Title": "Incorrect range for CHAR column",
-		"Url": "https://github.com/pingcap/tidb/issues/10397",
+		"Number": 10398,
+		"Title": "Incorrect range for CHAR BINARY column",
+		"Url": "https://github.com/pingcap/tidb/issues/10398",
 		"ClosedAt": "2019-05-14T08:15:32Z",
 		"Severity": "",
 		"AffectedVersions": null,
@@ -73832,9 +73832,9 @@
 		]
 	},
 	{
-		"Number": 10398,
-		"Title": "Incorrect range for CHAR BINARY column",
-		"Url": "https://github.com/pingcap/tidb/issues/10398",
+		"Number": 10397,
+		"Title": "Incorrect range for CHAR column",
+		"Url": "https://github.com/pingcap/tidb/issues/10397",
 		"ClosedAt": "2019-05-14T08:15:32Z",
 		"Severity": "",
 		"AffectedVersions": null,
